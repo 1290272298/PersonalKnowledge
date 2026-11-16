@@ -37,7 +37,7 @@ const SEARCH_ALIASES={
  "n2":["jlpt n2","日本語能力試験 n2"],
  "n3":["jlpt n3","日本語能力試験 n3"]
 };
-function queryGroups(q){return normalizeText(q).split(" ").filter(Boolean).map(term=>{let alts=[term];for(const [k,values] of Object.entries(SEARCH_ALIASES)){if(term===normalizeText(k)||term===normalizeText(k).replace(/\\s/g,""))alts.push(...values.map(normalizeText))}return [...new Set(alts)]})}
+function queryGroups(q){return normalizeText(q).split(" ").filter(Boolean).map(term=>{let alts=[term];for(const [k,values] of Object.entries(SEARCH_ALIASES)){if(term===normalizeText(k)||term===normalizeText(k))alts.push(...values.map(normalizeText))}return [...new Set(alts)]})}
 function renderNav(){
  const roots=[["home","首页｜开始使用"],["marketingcloud","Marketing Cloud｜产品学习"],["ri-ben-yu-xue-xi","日本語｜日语学习"]];
  $("#navigation").innerHTML='<div class="tree">'+roots.map(([key,label])=>{
@@ -70,7 +70,7 @@ async function buildSearchCorpus(){
   await Promise.all(Array.from({length:10},worker));searchCorpus=out;searchCorpus.failed=failed;return out
  })();return searchPromise
 }
-function makeSnippet(p,terms){const at=terms.map(t=>p.text.indexOf(t)).filter(n=>n>=0).sort((a,b)=>a-b)[0]||0;const start=Math.max(0,at-48);return esc((start?"…":"")+p.plain.slice(start,start+150)+(start+150<p.plain.length?"…":""))}
+function makeSnippet(p,groups.flat()){const at=terms.map(t=>p.text.indexOf(t)).filter(n=>n>=0).sort((a,b)=>a-b)[0]||0;const start=Math.max(0,at-48);return esc((start?"…":"")+p.plain.slice(start,start+150)+(start+150<p.plain.length?"…":""))}
 function setupSearch(){
  const input=$("#search"),box=$("#searchResults");let request=0;
  async function search(){const q=input.value.trim();if(!q){box.classList.remove("show");box.innerHTML="";return}
