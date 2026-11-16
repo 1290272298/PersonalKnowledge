@@ -501,22 +501,22 @@
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/hiraganakatakana.md",
-    "title": "ひらがな・カタカナ（五十音図）",
+    "title": "平假名与片假名｜五十音图",
     "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/no.md",
-    "title": "日本語の基本文型",
+    "title": "日语基本句型｜语序与例句",
     "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/nojoshi.md",
-    "title": "日本語の助詞（じょし）",
+    "title": "日语助词｜は、が、を、に、で",
     "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/norru.md",
-    "title": "日本語の発音・音声ルール",
+    "title": "日语发音规则｜长音、促音与拨音",
     "section": "01 日本語の基礎（日语基础）"
   },
   {
@@ -536,7 +536,7 @@
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/README.md",
-    "title": "01 日本語の基礎｜学习指南",
+    "title": "01 日语基础｜零基础学习指南",
     "section": "01 日本語の基礎（日语基础）"
   },
   {
@@ -1116,7 +1116,7 @@
   },
   {
     "path": "ri-ben-yu-xue-xi/README.md",
-    "title": "日语学习指南｜从基础到 JLPT",
+    "title": "00 日语学习入口｜从零开始",
     "section": "00 はじめに"
   }
 ]
