@@ -38,7 +38,7 @@ function prepareTranslation(){
  while(walker.nextNode()){
   const node=walker.currentNode,parent=node.parentElement;
   if(!parent||parent.closest("code,pre,a,script,style,rt,rp,.no-translate"))continue;
-  if(!/[ぁ-ゖァ-ヺ一-龯]/.test(node.nodeValue))continue;
+  if(!/[ぁ-ゖァ-ヺ]/.test(node.nodeValue))continue;
   nodes.push(node);
  }
  nodes.forEach(node=>{
@@ -47,7 +47,7 @@ function prepareTranslation(){
   if(parts.length===1&&!/[。！？!?]/.test(value))parts.splice(0,1,value);
   const fragment=document.createDocumentFragment();
   parts.forEach(part=>{
-   if(/[ぁ-ゖァ-ヺ一-龯]/.test(part)&&part.trim().length>=2){
+   if(/[ぁ-ゖァ-ヺ]/.test(part)&&part.trim().length>=2){
     const span=document.createElement("span");
     span.className="jp-translate";
     span.textContent=part;
@@ -80,7 +80,7 @@ async function translateJp(target){
  try{
   let translated=jpTranslationCache.get(key);
   if(!translated){
-   if(text.length>450)throw new Error("这段文字较长，请选取其中一句较短的内容。");
+   if(new TextEncoder().encode(text).length>450)throw new Error("这段文字较长，请选取其中一句较短的内容。");
    const params=new URLSearchParams({q:text,langpair:"ja|zh-CN"});
    const response=await fetch("https://api.mymemory.translated.net/get?"+params.toString());
    if(!response.ok)throw new Error("翻译服务暂时不可用（"+response.status+"）");
