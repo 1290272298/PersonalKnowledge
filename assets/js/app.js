@@ -22,7 +22,8 @@ async function applyJapaneseTranslations(){
   if(!entries.length)return;
   const lookup=new Map(entries.map(x=>[x.ja,x]));
   const keys=[...lookup.keys()].sort((a,b)=>b.length-a.length);
-const pattern=new RegExp(keys.join("|"),"g");
+  const escapedKeys=keys.map(s=>s.replace(/[.*+?^${}()|[\\]\\\\]/g,"\\\\$&"));
+  const pattern=new RegExp(escapedKeys.join("|"),"g");
   const root=$("#article");
   const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){
    const parent=node.parentElement;
@@ -41,13 +42,29 @@ const pattern=new RegExp(keys.join("|"),"g");
     span.className="translation-hit";span.textContent=match[0];
     span.setAttribute("data-translation",item.zh);
     if(item.reading)span.setAttribute("data-reading",item.reading);
-    span.setAttribute("title",item.zh+(item.reading?"（"+item.reading+"）":""));
     span.setAttribute("tabindex","0");span.setAttribute("aria-label",match[0]+"；中文："+item.zh);
     fragment.appendChild(span);last=match.index+match[0].length;
    }
    if(last<value.length)fragment.appendChild(document.createTextNode(value.slice(last)));
    node.parentNode.replaceChild(fragment,node);
   });
+  let tip=document.getElementById("ja-translation-float");
+  if(!tip){tip=document.createElement("div");tip.id="ja-translation-float";tip.setAttribute("role","status");tip.setAttribute("aria-live","polite");tip.innerHTML='<div class="ja-translation-reading"></div><div class="ja-translation-text"></div>';document.body.appendChild(tip)}
+  const showTip=target=>{
+   if(!target||!root.contains(target))return;
+   tip.querySelector(".ja-translation-reading").textContent=target.dataset.reading||"";
+   tip.querySelector(".ja-translation-reading").hidden=!target.dataset.reading;
+   tip.querySelector(".ja-translation-text").textContent=target.dataset.translation||"";
+   tip.classList.add("visible");
+  };
+  const hideTip=()=>tip.classList.remove("visible");
+  if(!root.dataset.translationEvents){
+   root.dataset.translationEvents="1";
+   root.addEventListener("pointerover",e=>{const t=e.target.closest(".translation-hit");if(t)showTip(t)});
+   root.addEventListener("pointerout",e=>{const t=e.target.closest(".translation-hit");if(t&&!t.contains(e.relatedTarget))hideTip()});
+   root.addEventListener("focusin",e=>{const t=e.target.closest(".translation-hit");if(t)showTip(t)});
+   root.addEventListener("focusout",e=>{if(e.target.closest(".translation-hit"))hideTip()});
+  }
  }catch(e){console.warn("日语悬停翻译暂不可用：",e)}
 }
 
