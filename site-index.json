@@ -1,5 +1,10 @@
 [
   {
+    "path": "home/README.md",
+    "title": "首页｜学习和产品知识库",
+    "section": ""
+  },
+  {
     "path": "marketingcloud/README.md",
     "title": "Marketing Cloud 学习路线",
     "section": "Marketing Cloud 学习笔记"
@@ -493,11 +498,6 @@
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/09.-qi-ta.md",
     "title": "09. 其他",
     "section": "10. 问题记录（实际问题与解决方法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/README.md",
-    "title": "日语学习指南｜从基础到 JLPT",
-    "section": "00 はじめに"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/README.md",
@@ -1115,8 +1115,8 @@
     "section": "09 学習資料（学习资料与复习）"
   },
   {
-    "path": "home/README.md",
-    "title": "首页｜学习和产品知识库",
-    "section": ""
+    "path": "ri-ben-yu-xue-xi/README.md",
+    "title": "日语学习指南｜从基础到 JLPT",
+    "section": "00 はじめに"
   }
 ]
