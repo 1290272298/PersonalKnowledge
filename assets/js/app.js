@@ -37,7 +37,7 @@ const SEARCH_ALIASES={
  "n2":["jlpt n2","日本語能力試験 n2"],
  "n3":["jlpt n3","日本語能力試験 n3"]
 };
-function expandTerms(q){const raw=normalizeText(q).split(" ").filter(Boolean);const expanded=[];for(const term of raw){expanded.push(term);for(const [k,alts] of Object.entries(SEARCH_ALIASES)){if(term===normalizeText(k)||term===normalizeText(k).replace(/\s/g,""))expanded.push(...alts.map(normalizeText))}}return [...new Set(expanded)]}
+function queryGroups(q){return normalizeText(q).split(" ").filter(Boolean).map(term=>{let alts=[term];for(const [k,values] of Object.entries(SEARCH_ALIASES)){if(term===normalizeText(k)||term===normalizeText(k).replace(/\\s/g,""))alts.push(...values.map(normalizeText))}return [...new Set(alts)]})}
 function renderNav(){
  const roots=[["home","首页｜开始使用"],["marketingcloud","Marketing Cloud｜产品学习"],["ri-ben-yu-xue-xi","日本語｜日语学习"]];
  $("#navigation").innerHTML='<div class="tree">'+roots.map(([key,label])=>{
@@ -76,7 +76,7 @@ function setupSearch(){
  async function search(){const q=input.value.trim();if(!q){box.classList.remove("show");box.innerHTML="";return}
   const id=++request;box.classList.add("show");box.innerHTML='<p class="search-status">正在建立全文索引，首次搜索可能需要几秒钟…</p>';
   const corpus=await buildSearchCorpus();if(id!==request)return;
-  const terms=expandTerms(q);const hits=corpus.map(p=>{const matched=terms.filter(t=>p.text.includes(t));return {...p,matched,score:(normalizeText(p.title).includes(normalizeText(q))?100:0)+(matched.length*5)+(p.text.startsWith(normalizeText(q))?10:0)}}).filter(p=>p.matched.length===terms.length).sort((a,b)=>b.score-a.score).slice(0,30);
+  const groups=queryGroups(q);const hits=corpus.map(p=>{const matched=groups.map(group=>group.find(term=>p.text.includes(term))).filter(Boolean);return {...p,matched,score:(normalizeText(p.title).includes(normalizeText(q))?100:0)+(matched.length*5)+(p.text.startsWith(normalizeText(q))?10:0)}}).filter(p=>p.matched.length===groups.length).sort((a,b)=>b.score-a.score).slice(0,30);
   const status='<p class="search-status">找到 '+hits.length+' 条结果'+(corpus.failed?'；'+corpus.failed+' 篇文章暂时无法读取':'')+'。支持中文、日文、英文和多个关键词。</p>';
   box.innerHTML=status+(hits.map(p=>'<a href="#'+encodeURIComponent(p.path)+'"><strong>'+esc(p.title)+'</strong><small>'+esc(p.section||p.path.split("/").slice(0,-1).join(" / "))+'</small><small>'+makeSnippet(p,terms)+'</small></a>').join("")||'<p class="search-status">没有找到完全匹配的内容。试试更短的词，例如「DE」「邮件」「语法」「N2」。</p>');
  }
