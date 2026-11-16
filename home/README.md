@@ -13,7 +13,6 @@ description: 给零基础学习者使用的入门首页。选择一个学习方�
 
 ## 我是零基础，应该从哪里开始？
 
-<box-placeholder></box-placeholder>
 
 ### 想学习 Salesforce Marketing Cloud
 
