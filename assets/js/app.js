@@ -43,7 +43,7 @@ function renderNav(){
  $("#navigation").innerHTML='<div class="tree">'+roots.map(([key,label])=>{
   const arr=pages.filter(p=>p.path.startsWith(key+"/"));
   const groups=new Map();
-  arr.forEach(p=>{if(p.path.endsWith("/README.md")&&p.path!==key+"/README.md")return;const group=p.section||"基础内容";if(!groups.has(group))groups.set(group,[]);groups.get(group).push(p)});
+  arr.forEach(p=>{const group=p.section||"基础内容";if(!groups.has(group))groups.set(group,[]);groups.get(group).push(p)});
   return '<details open><summary>'+esc(label)+'</summary>'+[...groups.entries()].map(([g,items])=>'<details class="nav-group" open><summary>'+esc(g)+'</summary>'+items.map(p=>'<a href="#'+encodeURIComponent(p.path)+'" data-path="'+esc(p.path)+'">'+esc(titleOf(p))+'</a>').join("")+'</details>').join("")+'</details>'
  }).join("")+'</div>';
  $("#navigation").querySelectorAll("a").forEach(a=>a.onclick=e=>{e.preventDefault();location.hash=encodeURIComponent(a.dataset.path);$("#sidebar").classList.remove("open")});
