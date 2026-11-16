@@ -9,7 +9,50 @@ function terms(q){return norm(q).split(" ").filter(Boolean).map(t=>[t,...(aliase
 function renderNav(){const roots=[["home","首页｜开始使用"],["marketingcloud","MarketingCloud｜产品学习"],["ri-ben-yu-xue-xi","日语｜从零开始"]];$("#navigation").innerHTML='<div class="tree">'+roots.map(([k,l])=>{const a=pages.filter(p=>p.path.startsWith(k+"/"));if(k==="home"){const order=["home/geng-xin-ji-lu.md","home/README.md"];const links=order.map(path=>a.find(p=>p.path===path)).filter(Boolean);return '<details class="nav-root" data-root="home"><summary>'+esc(l)+'</summary><div class="nav-root-items">'+links.map(p=>'<a href="#'+encodeURIComponent(p.path)+'" data-path="'+esc(p.path)+'">'+esc(p.path==="home/README.md"?"学习和产品知识库":title(p))+'</a>').join("")+'</div></details>'}const introPath=k==="marketingcloud"?"marketingcloud/README.md":"ri-ben-yu-xue-xi/README.md";const intro=a.find(p=>p.path===introPath);const groups=new Map();a.filter(p=>p.path!==introPath).forEach(p=>{const section=p.section||"其他内容";if(!groups.has(section))groups.set(section,[]);groups.get(section).push(p)});const ordered=[...groups].sort((x,y)=>{const nx=parseInt((x[0].match(/^\\d+/)||[])[0]||"99",10),ny=parseInt((y[0].match(/^\\d+/)||[])[0]||"99",10);return nx-ny||x[0].localeCompare(y[0],"zh-CN")});return '<details class="nav-root" data-root="'+k+'"><summary>'+esc(l)+'</summary><div class="nav-root-items">'+(intro?'<a class="nav-intro" href="#'+encodeURIComponent(intro.path)+'" data-path="'+esc(intro.path)+'">'+esc(title(intro))+'</a>':"")+'</div>'+ordered.map(([section,items])=>'<details class="nav-section"><summary>'+esc(section)+'</summary><div class="nav-section-items">'+items.sort((x,y)=>x.path.localeCompare(y.path,"en",{numeric:true})).map(p=>'<a href="#'+encodeURIComponent(p.path)+'" data-path="'+esc(p.path)+'">'+esc(title(p))+'</a>').join("")+'</div></details>').join("")+'</details>'}).join("")+'</div>';$$("#navigation a").forEach(a=>a.onclick=e=>{e.preventDefault();location.hash=encodeURIComponent(a.dataset.path)})}
 function setupHeader(){$$("#topNav a").forEach(a=>a.onclick=e=>{e.preventDefault();let k=a.dataset.section,p=pages.find(x=>x.path===k+"/README.md")||pages.find(x=>x.path.startsWith(k+"/"));if(p)location.hash=encodeURIComponent(p.path)});const btn=$("#menuToggle"),layout=$("#layout");btn.setAttribute("aria-expanded","true");btn.onclick=()=>{const hidden=layout.classList.toggle("sidebar-hidden");btn.setAttribute("aria-expanded",String(!hidden));btn.setAttribute("aria-label",hidden?"显示左侧目录":"隐藏左侧目录")}}
 async function init(){try{let r=await fetch(new URL("site-index.json",base),{cache:"no-cache"});if(!r.ok)throw Error("目录加载失败："+r.status);let d=await r.json();pages=Array.isArray(d)?d:(d.pages||[]);if(!pages.length)throw Error("目录为空或格式错误");renderNav();setupHeader();setupSearch();await show(current)}catch(e){$("#article").innerHTML='<h1>暂时无法打开知识目录</h1><p>请刷新页面；如果仍有问题，请检查网络连接。</p><p class="muted">'+esc(e.message)+'</p>'}}
+
+let jaTranslationData=null,jaTranslationPromise=null;
+async function loadJapaneseTranslations(){
+ if(jaTranslationData)return jaTranslationData;
+ if(!jaTranslationPromise)jaTranslationPromise=(async()=>{const r=await fetch(new URL("assets/data/ja-zh-translations.json",base),{cache:"no-cache"});if(!r.ok)throw Error("翻译数据加载失败");const d=await r.json();jaTranslationData=Array.isArray(d.entries)?d.entries:[];return jaTranslationData})();
+ return jaTranslationPromise;
+}
+async function applyJapaneseTranslations(){
+ try{
+  const entries=await loadJapaneseTranslations();
+  if(!entries.length)return;
+  const lookup=new Map(entries.map(x=>[x.ja,x]));
+  const keys=[...lookup.keys()].sort((a,b)=>b.length-a.length);
+  const pattern=new RegExp(keys.map(s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\async function show(path){")).join("|"),"g");
+  const root=$("#article");
+  const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){
+   const parent=node.parentElement;
+   if(!parent||!node.nodeValue.trim())return NodeFilter.FILTER_REJECT;
+   if(parent.closest("script,style,code,pre,textarea,.translation-hit,[data-no-translate]"))return NodeFilter.FILTER_REJECT;
+   return NodeFilter.FILTER_ACCEPT;
+  }});
+  const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+  nodes.forEach(node=>{
+   const value=node.nodeValue;pattern.lastIndex=0;
+   if(!pattern.test(value))return;
+   pattern.lastIndex=0;const fragment=document.createDocumentFragment();let last=0,match;
+   while((match=pattern.exec(value))){
+    if(match.index>last)fragment.appendChild(document.createTextNode(value.slice(last,match.index)));
+    const item=lookup.get(match[0]),span=document.createElement("span");
+    span.className="translation-hit";span.textContent=match[0];
+    span.setAttribute("data-translation",item.zh);
+    if(item.reading)span.setAttribute("data-reading",item.reading);
+    span.setAttribute("title",item.zh+(item.reading?"（"+item.reading+"）":""));
+    span.setAttribute("tabindex","0");span.setAttribute("aria-label",match[0]+"；中文："+item.zh);
+    fragment.appendChild(span);last=match.index+match[0].length;
+   }
+   if(last<value.length)fragment.appendChild(document.createTextNode(value.slice(last)));
+   node.parentNode.replaceChild(fragment,node);
+  });
+ }catch(e){console.warn("日语悬停翻译暂不可用：",e)}
+}
+
 async function show(path){let p=pages.find(x=>x.path===path)||pages.find(x=>x.path==="home/README.md")||pages[0];if(!p)return;current=p.path;history.replaceState(null,"","#"+encodeURIComponent(current));$("#breadcrumbs").textContent=(p.section?p.section+" / ":"")+title(p);let u=new URL(p.path,base),r=await fetch(u);if(!r.ok){$("#article").innerHTML='<h1>文章暂时无法打开</h1><p>'+esc(p.path)+'</p>';return}let md=await r.text();md=md.replaceAll(String.fromCharCode(13)+String.fromCharCode(10),String.fromCharCode(10));if(md.startsWith("---"+String.fromCharCode(10))){const end=md.indexOf(String.fromCharCode(10)+"---",4);if(end!==-1){const after=md.indexOf(String.fromCharCode(10),end+1);md=after===-1?"":md.slice(after+1)}}let html=window.marked?marked.parse(md):"<pre>"+esc(md)+"</pre>";$("#article").innerHTML=window.DOMPurify?DOMPurify.sanitize(html):html;
+ if(p.path.startsWith("ri-ben-yu-xue-xi/")) await applyJapaneseTranslations();
  $$("#article a").forEach(a=>{let h=a.getAttribute("href");if(!h||/^(https?:|mailto:|#|data:|javascript:)/i.test(h))return;try{let x=new URL(h,u),target=decodeURIComponent(x.pathname).replace(decodeURIComponent(base.pathname),"").replace(/^\//,"");if(!/\.md$/i.test(target)&&!target.includes("."))target=target.replace(/\/$/,"")+"/README.md";if(pages.some(z=>z.path===target)){a.href="#"+encodeURIComponent(target);a.dataset.internalPath=target}else a.href=x.href}catch(e){}});
  $$("#article img").forEach(i=>{let s=i.getAttribute("src");if(s&&!/^(https?:|data:)/i.test(s))i.src=new URL(s,u).href});$("#tocLinks").innerHTML=$$("#article h2,#article h3").map((h,i)=>{h.id="part-"+i;return '<a href="#'+h.id+'" data-toc-target="'+h.id+'">'+esc(h.textContent)+'</a>'}).join("");$$("#tocLinks a[data-toc-target]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();const target=document.getElementById(a.dataset.tocTarget);if(target)target.scrollIntoView({behavior:"smooth",block:"start"})}));const root=p.path.split("/")[0];$$("#navigation .nav-root").forEach(d=>{d.open=d.dataset.root===root});$$("#navigation .nav-section").forEach(d=>{d.open=!!d.querySelector('a[data-path="'+CSS.escape(p.path)+'"]')});$$("#navigation a").forEach(a=>a.classList.toggle("active",a.dataset.path===p.path));const activeLink=$('#navigation a.active');if(activeLink)activeLink.scrollIntoView({block:"nearest",behavior:"smooth"});$$("#topNav a").forEach(a=>a.classList.toggle("active",p.path.startsWith(a.dataset.section+"/")));let i=pages.indexOf(p);$("#pager").innerHTML=(i>0?'<a href="#'+encodeURIComponent(pages[i-1].path)+'">← '+esc(title(pages[i-1]))+'</a>':"<span></span>")+(i<pages.length-1?'<a href="#'+encodeURIComponent(pages[i+1].path)+'">'+esc(title(pages[i+1]))+' →</a>':"");window.scrollTo(0,0)}
 function plain(md){return md.replace(/^---[\s\S]*?---\s*/," ").replace(/!\[[^\]]*\]\([^)]*\)/g," ").replace(/\[([^\]]+)\]\([^)]*\)/g,"$1").replace(/<[^>]+>/g," ").replace(/\x60{1,3}/g," ").replace(/[#>*_~|]/g," ").replace(/\s+/g," ").trim()}
