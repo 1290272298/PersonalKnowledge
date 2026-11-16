@@ -1,910 +1,1122 @@
 [
   {
     "path": "home/README.md",
-    "title": "README"
-  },
-  {
-    "path": "home/SUMMARY.md",
-    "title": "SUMMARY"
+    "title": "首页｜学习和产品知识库",
+    "section": ""
   },
   {
     "path": "marketingcloud/README.md",
-    "title": "README"
-  },
-  {
-    "path": "marketingcloud/SUMMARY.md",
-    "title": "SUMMARY"
+    "title": "Marketing Cloud 学习路线",
+    "section": "Marketing Cloud 学习笔记"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/01.-jie-shao.md",
-    "title": "jie shao"
+    "title": "01. 介绍",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/02.-chan-pin-ti-xi-yu-gong-neng-guan-xi.md",
-    "title": "chan pin ti xi yu gong neng guan xi"
+    "title": "02. 产品体系与功能关系",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/03.-business-unit-bu.md",
-    "title": "business unit bu"
+    "title": "03. Business Unit（BU）",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/04.-enterprise-parent-bu-child-bu.md",
-    "title": "enterprise parent bu child bu"
+    "title": "04. Enterprise / Parent BU / Child BU",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/05.-subscriber-contact.md",
-    "title": "subscriber contact"
+    "title": "05. Subscriber / Contact",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/06.-subscriber-key.md",
-    "title": "subscriber key"
+    "title": "06. Subscriber Key",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/07.-contact-key.md",
-    "title": "contact key"
+    "title": "07. Contact Key",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/08.-data-extension-de.md",
-    "title": "data extension de"
+    "title": "08. Data Extension（DE）",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/09.-all-subscribers.md",
-    "title": "all subscribers"
+    "title": "09. All Subscribers",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/10.-subscriber-status.md",
-    "title": "subscriber status"
+    "title": "10. Subscriber Status",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/README.md",
-    "title": "README"
+    "title": "01. 基础知识｜学习指南",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/01.-email-studio-jie-shao.md",
-    "title": "email studio jie shao"
+    "title": "01. Email Studio 介绍",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/02.-content-builder.md",
-    "title": "content builder"
+    "title": "02. Content Builder",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/03.-email.md",
-    "title": "email"
+    "title": "03. Email",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/04.-send-classification.md",
-    "title": "send classification"
+    "title": "04. Send Classification",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/05.sender-profile.md",
-    "title": "sender profile"
+    "title": "05. Sender Profile",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/06.delivery-profile.md",
-    "title": "delivery profile"
+    "title": "06. Delivery Profile",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/07.send.md",
-    "title": "send"
+    "title": "07. Send",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/08.tracking.md",
-    "title": "tracking"
+    "title": "08. Tracking",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/09.subscription-unsubscribe.md",
-    "title": "subscription unsubscribe"
+    "title": "09. Subscription / Unsubscribe",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/README.md",
-    "title": "README"
+    "title": "02. Email Studio｜学习指南",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/01.automation-studio-jie-shao.md",
-    "title": "automation studio jie shao"
+    "title": "01. Automation Studio 介绍",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/02.automation.md",
-    "title": "automation"
+    "title": "02. Automation",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/03.schedule.md",
-    "title": "schedule"
+    "title": "03. Schedule",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/04.sql-query-activity.md",
-    "title": "sql query activity"
+    "title": "04. SQL Query Activity",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/05.import-activity.md",
-    "title": "import activity"
+    "title": "05. Import Activity",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/06.file-transfer-activity.md",
-    "title": "file transfer activity"
+    "title": "06. File Transfer Activity",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/07.data-extract-activity.md",
-    "title": "data extract activity"
+    "title": "07. Data Extract Activity",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/08.script-activity.md",
-    "title": "script activity"
+    "title": "08. Script Activity",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/09.automation-jian-kong.md",
-    "title": "automation jian kong"
+    "title": "09. Automation 监控",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/10.-automation-studio-shi-zhan-liu-cheng.md",
-    "title": "automation studio shi zhan liu cheng"
+    "title": "10. Automation Studio 实战流程",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/README.md",
-    "title": "README"
+    "title": "03. Automation Studio｜学习指南",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/01.journey-builder-jie-shao.md",
-    "title": "journey builder jie shao"
+    "title": "01. Journey Builder 介绍",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/02.-journey.md",
-    "title": "journey"
+    "title": "02. Journey",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/02.entry-source.md",
-    "title": "entry source"
+    "title": "03. Entry Source",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/03.entry-event.md",
-    "title": "entry event"
+    "title": "04. Entry Event",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/04.activities.md",
-    "title": "activities"
+    "title": "05. Activities",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/05.decision-split.md",
-    "title": "decision split"
+    "title": "06. Decision Split",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/06.engagement-split.md",
-    "title": "engagement split"
+    "title": "07. Engagement Split",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/07.wait.md",
-    "title": "wait"
+    "title": "08. Wait",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/08.email-activity.md",
-    "title": "email activity"
+    "title": "09. Email Activity",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/09.salesforce-data-activity.md",
-    "title": "salesforce data activity"
+    "title": "10. Salesforce Data Activity",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/11.-exit-criteria.md",
-    "title": "exit criteria"
+    "title": "11. Exit Criteria",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/12.-goal.md",
-    "title": "goal"
+    "title": "12. Goal",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/13.-journey-settings.md",
-    "title": "journey settings"
+    "title": "13. Journey Settings",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/14.-journey-ban-ben-guan-li.md",
-    "title": "journey ban ben guan li"
+    "title": "14. Journey 版本管理",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/15.-journey-fa-bu.md",
-    "title": "journey fa bu"
+    "title": "15. Journey 发布",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/16.-journey-jian-kong.md",
-    "title": "journey jian kong"
+    "title": "16. Journey 监控",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/17.-journey-shu-ju-yu-tracking.md",
-    "title": "journey shu ju yu tracking"
+    "title": "17. Journey 数据与 Tracking",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/18.-journey-chang-jian-wen-ti.md",
-    "title": "journey chang jian wen ti"
+    "title": "18. Journey 常见问题",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/19.-journey-shi-ji-an-li.md",
-    "title": "journey shi ji an li"
+    "title": "19. Journey 实际案例",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/README.md",
-    "title": "README"
+    "title": "04. Journey Builder｜学习指南",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/01.contact-builder-jie-shao.md",
-    "title": "contact builder jie shao"
+    "title": "01. Contact Builder 介绍",
+    "section": "05. Contact Builder（联系人与数据关系）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/02.contact-model.md",
-    "title": "contact model"
+    "title": "02. Contact Model",
+    "section": "05. Contact Builder（联系人与数据关系）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/03.attribute-group.md",
-    "title": "attribute group"
+    "title": "03. Attribute Group",
+    "section": "05. Contact Builder（联系人与数据关系）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/04.data-designer.md",
-    "title": "data designer"
+    "title": "04. Data Designer",
+    "section": "05. Contact Builder（联系人与数据关系）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/05.relationship.md",
-    "title": "relationship"
+    "title": "05. Relationship",
+    "section": "05. Contact Builder（联系人与数据关系）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/06.contact-key-yu-shu-ju-guan-xi.md",
-    "title": "contact key yu shu ju guan xi"
+    "title": "06. Contact Key 与数据关系",
+    "section": "05. Contact Builder（联系人与数据关系）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/README.md",
-    "title": "README"
+    "title": "05. Contact Builder｜学习指南",
+    "section": "05. Contact Builder（联系人与数据关系）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/01.personalization-jie-shao.md",
-    "title": "personalization jie shao"
+    "title": "01. Personalization 介绍",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/02.data-model.md",
-    "title": "data model"
+    "title": "02. Data Model",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/03.catalog.md",
-    "title": "catalog"
+    "title": "03. Catalog",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/04.sitemap.md",
-    "title": "sitemap"
+    "title": "04. Sitemap",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/05.web-template.md",
-    "title": "web template"
+    "title": "05. Web Template",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/06.content-zone.md",
-    "title": "content zone"
+    "title": "06. Content Zone",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/07.campaign.md",
-    "title": "campaign"
+    "title": "07. Campaign",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/08.client-side-code.md",
-    "title": "client side code"
+    "title": "08. Client-side Code",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/README.md",
-    "title": "README"
+    "title": "06. Personalization｜学习指南",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/07.-development.md",
-    "title": "development"
+    "title": "07. Development（开发基础）",
+    "section": ""
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/01.api-jie-shao.md",
-    "title": "api jie shao"
+    "title": "01. API 介绍",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/02.rest-api.md",
-    "title": "rest api"
+    "title": "02. REST API",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/03.soap-api.md",
-    "title": "soap api"
+    "title": "03. SOAP API",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/04.oauth.md",
-    "title": "oauth"
+    "title": "04. OAuth",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/05.data-extension-api.md",
-    "title": "data extension api"
+    "title": "05. Data Extension API",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/06.send-api.md",
-    "title": "send api"
+    "title": "06. Send API",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/07.salesforce-integration.md",
-    "title": "salesforce integration"
+    "title": "07. Salesforce Integration",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/08.mulesoft-integration.md",
-    "title": "mulesoft integration"
+    "title": "08. MuleSoft Integration",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/README.md",
-    "title": "README"
+    "title": "08. API / Integration｜学习指南",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/01.deliverability-jie-shao.md",
-    "title": "deliverability jie shao"
+    "title": "01. Deliverability 介绍",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/02.bounce.md",
-    "title": "bounce"
+    "title": "02. Bounce",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/03.block-bounce.md",
-    "title": "block bounce"
+    "title": "03. Block Bounce",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/04.held.md",
-    "title": "held"
+    "title": "04. Held",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/05.spam.md",
-    "title": "spam"
+    "title": "05. Spam",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/06.list-detective.md",
-    "title": "list detective"
+    "title": "06. List Detective",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/07.spf-dkim-dmarc.md",
-    "title": "spf dkim dmarc"
+    "title": "07. SPF / DKIM / DMARC",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/08.deliverability-guan-li.md",
-    "title": "deliverability guan li"
+    "title": "08. Deliverability 管理",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/README.md",
-    "title": "README"
+    "title": "09. Deliverability｜学习指南",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/01.subscriber-subscription.md",
-    "title": "subscriber subscription"
+    "title": "01. Subscriber / Subscription",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/02.email.md",
-    "title": "email"
+    "title": "02. Email",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/03.automation.md",
-    "title": "automation"
+    "title": "03. Automation",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/04.journey.md",
-    "title": "journey"
+    "title": "04. Journey",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/05.contact-builder.md",
-    "title": "contact builder"
+    "title": "05. Contact Builder（联系人与数据关系）",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/06.personalization.md",
-    "title": "personalization"
+    "title": "06. Personalization（个性化营销）",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/07.data-sql.md",
-    "title": "data sql"
+    "title": "07. Data / SQL",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/08.api-integration.md",
-    "title": "api integration"
+    "title": "08. API / Integration（接口与系统集成）",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/09.-qi-ta.md",
-    "title": "qi ta"
+    "title": "09. 其他",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/README.md",
-    "title": "README"
+    "title": "10. 问题记录｜学习指南",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/geng-xin-ji-lu.md",
-    "title": "geng xin ji lu"
+    "title": "📢 更新记录",
+    "section": ""
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/README.md",
-    "title": "README"
+    "title": "01 日本語の基礎｜学习指南",
+    "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/hiraganakatakana.md",
-    "title": "hiraganakatakana"
+    "title": "ひらがな・カタカナ（五十音図）",
+    "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/no.md",
-    "title": "no"
+    "title": "日本語の基本文型",
+    "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/nojoshi.md",
-    "title": "nojoshi"
+    "title": "日本語の助詞（じょし）",
+    "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/norru.md",
-    "title": "norru"
+    "title": "日本語の発音・音声ルール",
+    "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/noto-1.md",
-    "title": "noto 1"
+    "title": "日本語の形容詞と活用",
+    "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/noto-2.md",
-    "title": "noto 2"
+    "title": "日本語の時制と丁寧体・普通体",
+    "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/noto.md",
-    "title": "noto"
+    "title": "日本語の動詞分類と活用",
+    "section": "01 日本語の基礎（日语基础）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/README.md",
-    "title": "README"
+    "title": "02 文法｜学习指南",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-1.md",
-    "title": "no 1"
+    "title": "日本語の条件表現（条件形）",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-10.md",
-    "title": "no 10"
+    "title": "日本語の伝聞・引用表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-11.md",
-    "title": "no 11"
+    "title": "日本語の文末表現・終助詞",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-12.md",
-    "title": "no 12"
+    "title": "日本語の複合助詞・複合表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-13.md",
-    "title": "no 13"
+    "title": "日本語の依頼・許可・禁止表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-14.md",
-    "title": "no 14"
+    "title": "日本語の義務・必要・不必要表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-15.md",
-    "title": "no 15"
+    "title": "日本語の状態・変化表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-16.md",
-    "title": "no 16"
+    "title": "日本語の時間・順序表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-17.md",
-    "title": "no 17"
+    "title": "日本語の限定・強調表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-18.md",
-    "title": "no 18"
+    "title": "日本語の付帯状況・同時動作表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-19.md",
-    "title": "no 19"
+    "title": "日本語の比喩・例示表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-2.md",
-    "title": "no 2"
+    "title": "日本語の推量・意志表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-20.md",
-    "title": "no 20"
+    "title": "日本語の追加・累加表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-21.md",
-    "title": "no 21"
+    "title": "日本語の経験・習慣表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-22.md",
-    "title": "no 22"
+    "title": "日本語の判断・確信表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-23.md",
-    "title": "no 23"
+    "title": "日本語の様態・推定表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-24.md",
-    "title": "no 24"
+    "title": "日本語の婉曲・断定回避表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-25.md",
-    "title": "no 25"
+    "title": "日本語の文法総合整理",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-3.md",
-    "title": "no 3"
+    "title": "日本語の敬語（尊敬語・謙譲語・丁寧語）",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-4.md",
-    "title": "no 4"
+    "title": "日本語の比較表現・程度表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-5.md",
-    "title": "no 5"
+    "title": "日本語の否定表現・部分否定",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-6.md",
-    "title": "no 6"
+    "title": "日本語の原因・理由・結果表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-7.md",
-    "title": "no 7"
+    "title": "日本語の目的・手段・方法表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-8.md",
-    "title": "no 8"
+    "title": "日本語の逆接・譲歩表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-9.md",
-    "title": "no 9"
+    "title": "日本語の並列・列挙表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no.md",
-    "title": "no"
+    "title": "日本語の疑問文・疑問詞",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/noagerukurerumorau.md",
-    "title": "noagerukurerumorau"
+    "title": "日本語の授受表現（あげる・くれる・もらう）",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/noasupekuto.md",
-    "title": "noasupekuto"
+    "title": "日本語の補助動詞・アスペクト表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/nokotomonowakehazu.md",
-    "title": "nokotomonowakehazu"
+    "title": "日本語の形式名詞（こと・もの・わけ・はず）",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/noto-1.md",
-    "title": "noto 1"
+    "title": "日本語の受身形と受身表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/noto-2.md",
-    "title": "noto 2"
+    "title": "日本語の使役形と使役表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/noto.md",
-    "title": "noto"
+    "title": "日本語の可能形と可能表現",
+    "section": "02 文法（日语语法）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/README.md",
-    "title": "README"
+    "title": "03 語彙｜学习指南",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/be-minisuru.md",
-    "title": "be minisuru"
+    "title": "食べ物・飲み物に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/bijinesunisuru.md",
-    "title": "bijinesunisuru"
+    "title": "仕事・ビジネスに関する基本語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/fu-ci-jie-xu-ci-cheng-du-biao-xian.md",
-    "title": "fu ci jie xu ci cheng du biao xian"
+    "title": "副詞・接続詞・程度表現",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/i-onisuru.md",
-    "title": "i onisuru"
+    "title": "買い物・お金に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/it-intnettonisuru.md",
-    "title": "it intnettonisuru"
+    "title": "IT・技術・インターネットに関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/katakana.md",
-    "title": "katakana"
+    "title": "カタカナ語・外来語",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/ki-nisuru.md",
-    "title": "ki nisuru"
+    "title": "契約・手続き・行政に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/kinisuru.md",
-    "title": "kinisuru"
+    "title": "職業・職種・働き方に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/komyunikshonnisuru.md",
-    "title": "komyunikshonnisuru"
+    "title": "人間関係・コミュニケーションに関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/kotowaza.md",
-    "title": "kotowaza"
+    "title": "慣用句・ことわざ",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-1.md",
-    "title": "nisuru 1"
+    "title": "感情・性格に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-2.md",
-    "title": "nisuru 2"
+    "title": "動作・行動に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-3.md",
-    "title": "nisuru 3"
+    "title": "時間・数量・程度に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-4.md",
-    "title": "nisuru 4"
+    "title": "交通・旅行に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-5.md",
-    "title": "nisuru 5"
+    "title": "住居・家具・家電に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-6.md",
-    "title": "nisuru 6"
+    "title": "健康・身体・病気に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-7.md",
-    "title": "nisuru 7"
+    "title": "抽象概念・思考に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-8.md",
-    "title": "nisuru 8"
+    "title": "自然・天気・季節に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru.md",
-    "title": "nisuru"
+    "title": "学校・教育に関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/no-1.md",
-    "title": "no 1"
+    "title": "類義語・対義語の整理",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/no.md",
-    "title": "no"
+    "title": "日常生活の基本語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nysunisuru.md",
-    "title": "nysunisuru"
+    "title": "社会・文化・ニュースに関する語彙",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/onomatope.md",
-    "title": "onomatope"
+    "title": "オノマトペ（擬音語・擬態語）",
+    "section": "03 語彙（日语词汇）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/README.md",
-    "title": "README"
+    "title": "04 漢字｜学习指南",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/er-zi-shu-yu-si-zi-shu-yu.md",
-    "title": "er zi shu yu si zi shu yu"
+    "title": "二字熟語・四字熟語",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/jlptn1-gao-du-han-zi-yu-hui.md",
-    "title": "jlptn1 gao du han zi yu hui"
+    "title": "JLPT N1 高度漢字・語彙",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/jlptn2-han-zi-yu-hui.md",
-    "title": "jlptn2 han zi yu hui"
+    "title": "JLPT N2 漢字・語彙",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/jlptn3-han-zi-yu-hui.md",
-    "title": "jlptn3 han zi yu hui"
+    "title": "JLPT N3 漢字・語彙",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/jlptn4-ji-chu-han-zi.md",
-    "title": "jlptn4 ji chu han zi"
+    "title": "JLPT N4 基礎漢字",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/jlptn5-ji-chu-han-zi.md",
-    "title": "jlptn5 ji chu han zi"
+    "title": "JLPT N5 基礎漢字",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/kino.md",
-    "title": "kino"
+    "title": "筆順・書き方の基本",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/mi-mi.md",
-    "title": "mi mi"
+    "title": "音読み・訓読み",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/no.md",
-    "title": "no"
+    "title": "部首・漢字の構成",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/nogaido.md",
-    "title": "nogaido"
+    "title": "漢字学習の基本ガイド",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/04-kanji/ri-tonoike.md",
-    "title": "ri tonoike"
+    "title": "送り仮名・漢字と仮名の使い分け",
+    "section": "04 漢字（日语汉字）"
   },
   {
     "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/README.md",
-    "title": "README"
+    "title": "05 JLPT対策｜学习指南",
+    "section": "05 JLPT対策（日语能力考试）"
   },
   {
     "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n1-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
-    "title": "n1 ri ben yu neng li shi yan dui ce"
+    "title": "N1 日本語能力試験対策",
+    "section": "05 JLPT対策（日语能力考试）"
   },
   {
     "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n2-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
-    "title": "n2 ri ben yu neng li shi yan dui ce"
+    "title": "N2 日本語能力試験対策",
+    "section": "05 JLPT対策（日语能力考试）"
   },
   {
     "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n3-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
-    "title": "n3 ri ben yu neng li shi yan dui ce"
+    "title": "N3 日本語能力試験対策",
+    "section": "05 JLPT対策（日语能力考试）"
   },
   {
     "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n4-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
-    "title": "n4 ri ben yu neng li shi yan dui ce"
+    "title": "N4 日本語能力試験対策",
+    "section": "05 JLPT対策（日语能力考试）"
   },
   {
     "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n5-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
-    "title": "n5 ri ben yu neng li shi yan dui ce"
+    "title": "N5 日本語能力試験対策",
+    "section": "05 JLPT対策（日语能力考试）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/README.md",
-    "title": "README"
+    "title": "06 日常会話｜学习指南",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/ai-za-zi-ji-shao-jie.md",
-    "title": "ai za zi ji shao jie"
+    "title": "挨拶・自己紹介",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/deno-1.md",
-    "title": "deno 1"
+    "title": "病院・薬局での会話",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/deno-2.md",
-    "title": "deno 2"
+    "title": "予約・電話での会話",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/deno.md",
-    "title": "deno"
+    "title": "駅・電車・交通機関での会話",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/hoterudeno.md",
-    "title": "hoterudeno"
+    "title": "旅行・ホテルでの会話",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/i-deno.md",
-    "title": "i deno"
+    "title": "買い物・店での会話",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/no-notsunagi.md",
-    "title": "no notsunagi"
+    "title": "日常の雑談・会話のつなぎ方",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/resutorandeno.md",
-    "title": "resutorandeno"
+    "title": "飲食店・レストランでの会話",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/tono.md",
-    "title": "tono"
+    "title": "家族・友人との会話",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/ttatoki-toraburu.md",
-    "title": "ttatoki toraburu"
+    "title": "困ったとき・トラブル対応",
+    "section": "06 日常会話（日常会话）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/README.md",
-    "title": "README"
+    "title": "07 ビジネス日本語｜学习指南",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/bao-gao-lian-luo-xiang-tan-bao-lian-xiang.md",
-    "title": "bao gao lian luo xiang tan bao lian xiang"
+    "title": "報告・連絡・相談（報連相）",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/bijinesu.md",
-    "title": "bijinesu"
+    "title": "ビジネス電話応対",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/bijinesumruno.md",
-    "title": "bijinesumruno"
+    "title": "ビジネスメールの基本",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/bijinesuno.md",
-    "title": "bijinesuno"
+    "title": "ビジネス敬語の基本",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/chiwase.md",
-    "title": "chiwase"
+    "title": "会議・打ち合わせ",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/deno.md",
-    "title": "deno"
+    "title": "面接・職場での自己紹介",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/no.md",
-    "title": "no"
+    "title": "業務文書・報告書の表現",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/shang-tan-jiao-she-ti-an.md",
-    "title": "shang tan jiao she ti an"
+    "title": "商談・交渉・提案",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/07-bijinesu/sukejru.md",
-    "title": "sukejru"
+    "title": "進捗管理・スケジュール",
+    "section": "07 ビジネス日本語（商务日语）"
   },
   {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/README.md",
-    "title": "README"
+    "title": "08 読解・聴解｜学习指南",
+    "section": "08 読解・聴解（阅读与听力）"
   },
   {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/chang-wen-du-jie-shi-jian-pei-fen.md",
-    "title": "chang wen du jie shi jian pei fen"
+    "title": "長文読解・時間配分",
+    "section": "08 読解・聴解（阅读与听力）"
   },
   {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/gai-yao-li-jie-ji-shi-ying-da.md",
-    "title": "gai yao li jie ji shi ying da"
+    "title": "概要理解・即時応答",
+    "section": "08 読解・聴解（阅读与听力）"
   },
   {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/no-1.md",
-    "title": "no 1"
+    "title": "説明文・論説文の読解",
+    "section": "08 読解・聴解（阅读与听力）"
   },
   {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/no-2.md",
-    "title": "no 2"
+    "title": "情報検索・広告・案内文の読解",
+    "section": "08 読解・聴解（阅读与听力）"
   },
   {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/no-kiri.md",
-    "title": "no kiri"
+    "title": "聴解の基本・聞き取り方",
+    "section": "08 読解・聴解（阅读与听力）"
   },
   {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/no.md",
-    "title": "no"
+    "title": "読解の基本・文章構造",
+    "section": "08 読解・聴解（阅读与听力）"
   },
   {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/pointo.md",
-    "title": "pointo"
+    "title": "課題理解・ポイント理解",
+    "section": "08 読解・聴解（阅读与听力）"
   },
   {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/shadingu-torningu.md",
-    "title": "shadingu torningu"
+    "title": "シャドーイング・音読トレーニング",
+    "section": "08 読解・聴解（阅读与听力）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/README.md",
-    "title": "README"
+    "title": "09 学習資料｜学习指南",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/into.md",
-    "title": "into"
+    "title": "間違いノート・弱点分析",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/jlpt-mo-ni-shi-yan-shi-jian-guan-li.md",
-    "title": "jlpt mo ni shi yan shi jian guan li"
+    "title": "JLPT模擬試験・時間管理",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/no.md",
-    "title": "no"
+    "title": "毎日の学習習慣・継続方法",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/note.md",
-    "title": "note"
+    "title": "日本語学習計画の立て方",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/nto.md",
-    "title": "nto"
+    "title": "語彙ノート・復習方法",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/rinku.md",
-    "title": "rinku"
+    "title": "日本語学習リンク集・教材案内",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/saitono.md",
-    "title": "saitono"
+    "title": "辞書・学習サイトの活用",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/shto.md",
-    "title": "shto"
+    "title": "漢字・熟語復習シート",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/shtonori.md",
-    "title": "shtonori"
+    "title": "文法復習シートの作り方",
+    "section": "09 学習資料（学习资料与复习）"
   },
   {
     "path": "ri-ben-yu-xue-xi/README.md",
-    "title": "README"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/SUMMARY.md",
-    "title": "SUMMARY"
+    "title": "日语学习指南｜从基础到 JLPT",
+    "section": "00 はじめに"
   }
 ]
