@@ -22,7 +22,7 @@ async function applyJapaneseTranslations(){
   if(!entries.length)return;
   const lookup=new Map(entries.map(x=>[x.ja,x]));
   const keys=[...lookup.keys()].sort((a,b)=>b.length-a.length);
-  const escapedKeys=keys.map(s=>s.replace(/[.*+?^${}()|[\\]\\\\]/g,"\\\\$&"));
+  const escapedKeys=keys.map(s=>[...s].map(ch=>".*+?^${}()|[]\\".includes(ch)?"\\"+ch:ch).join(""));
   const pattern=new RegExp(escapedKeys.join("|"),"g");
   const root=$("#article");
   const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(node){
