@@ -4,3 +4,13 @@
 
 /* 右侧文章目录定位时避开顶部固定导航栏 */
 article h2,article h3{scroll-margin-top:88px}
+
+
+/* 日语固定句子中文悬停翻译：翻译内容来自仓库内 JSON，不请求第三方服务 */
+.translation-hit{position:relative;display:inline;border-bottom:1px dotted #3975d7;cursor:help;text-decoration:none}
+.translation-hit:hover,.translation-hit:focus{background:#eef5ff;border-radius:3px;outline:none}
+.translation-hit::after{content:attr(data-translation);position:absolute;left:0;bottom:calc(100% + 9px);z-index:30;display:none;min-width:180px;max-width:min(360px,80vw);width:max-content;padding:9px 12px;border:1px solid #d7e2f1;border-radius:8px;background:#fff;color:#243247;box-shadow:0 6px 22px #172b4d24;font-size:13px;font-weight:500;line-height:1.6;white-space:normal;pointer-events:none}
+.translation-hit[data-reading]::before{content:attr(data-reading);position:absolute;left:0;bottom:calc(100% + 42px);z-index:31;display:none;padding:4px 8px;border-radius:6px;background:#f4f7fb;color:#53657d;font-size:11px;white-space:nowrap;pointer-events:none}
+.translation-hit:hover::after,.translation-hit:focus::after{display:block}
+.translation-hit[data-reading]:hover::before,.translation-hit[data-reading]:focus::before{display:block}
+@media(hover:none){.translation-hit{border-bottom-style:solid}.translation-hit:active::after,.translation-hit:focus::after{display:block}}
