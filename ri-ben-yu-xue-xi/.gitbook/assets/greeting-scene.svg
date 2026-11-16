@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">あいさつ・自己紹介</title><desc id="desc">初対面では、名前と簡単なあいさつを伝える</desc><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#fffaf3"/></linearGradient><filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#334155" flood-opacity=".10"/></filter></defs><rect width="1200" height="760" rx="28" fill="url(#bg)"/><text x="600" y="65" text-anchor="middle" font-family="sans-serif" font-size="38" font-weight="800" fill="#26384d">あいさつ・自己紹介</text><text x="600" y="103" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#64748b">初対面では、名前と簡単なあいさつを伝える</text>
+<g font-family="sans-serif">
+<rect x="70" y="150" width="1060" height="420" rx="24" fill="#e3f1ff" filter="url(#s)"/>
+<rect x="480" y="515" width="240" height="22" rx="11" fill="#d8e6f2"/>
+<g transform="translate(265 330)"><circle cx="0" cy="0" r="42" fill="#efc7a8"/><path d="M-42 -5 Q-35 -55 5 -43 Q45 -38 42 0 Q20 -20 -42 -5" fill="#59483f"/><path d="M-58 155 Q-55 55 0 55 Q55 55 58 155" fill="#5b91b5"/><path d="M-40 72 L-78 118 M40 72 L78 118" stroke="#efc7a8" stroke-width="17" stroke-linecap="round"/></g>
+<g transform="translate(890 330)"><circle cx="0" cy="0" r="42" fill="#e8bd9e"/><path d="M-42 -8 Q-35 -55 5 -43 Q45 -38 42 0 Q20 -20 -42 -8" fill="#725548"/><path d="M-58 155 Q-55 55 0 55 Q55 55 58 155" fill="#d58b88"/><path d="M-40 72 L-78 118 M40 72 L78 118" stroke="#e8bd9e" stroke-width="17" stroke-linecap="round"/></g>
+<rect x="415" y="205" width="370" height="105" rx="24" fill="#fff" stroke="#a9bdcf" stroke-width="3"/>
+<path d="M490 310 l-25 30 62 -30" fill="#fff" stroke="#a9bdcf" stroke-width="3" stroke-linejoin="round"/>
+<text x="600" y="250" text-anchor="middle" font-size="24" font-weight="700" fill="#334155">はじめまして。田中です。</text>
+<text x="600" y="282" text-anchor="middle" font-size="17" fill="#64748b">はじめまして</text>
+<rect x="415" y="375" width="370" height="95" rx="24" fill="#fff" stroke="#a9bdcf" stroke-width="3"/>
+<path d="M710 470 l25 28 -62 -28" fill="#fff" stroke="#a9bdcf" stroke-width="3" stroke-linejoin="round"/>
+<text x="600" y="433" text-anchor="middle" font-size="23" font-weight="700" fill="#334155">どうぞよろしくお願いします。</text>
+<text x="600" y="640" text-anchor="middle" font-size="18" fill="#64748b">場面に合った丁寧さと、相手への配慮を意識しましょう。</text>
+</g></svg>
