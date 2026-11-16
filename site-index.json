@@ -1,13 +1,18 @@
 [
   {
-    "path": "home/README.md",
-    "title": "首页｜学习和产品知识库",
-    "section": ""
-  },
-  {
     "path": "marketingcloud/README.md",
     "title": "Marketing Cloud 学习路线",
     "section": "Marketing Cloud 学习笔记"
+  },
+  {
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/geng-xin-ji-lu.md",
+    "title": "📢 更新记录",
+    "section": ""
+  },
+  {
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/README.md",
+    "title": "01. 基础知识｜学习指南",
+    "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/01.-jie-shao.md",
@@ -60,9 +65,9 @@
     "section": "01. 基础知识（先了解产品和核心概念）"
   },
   {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/README.md",
-    "title": "01. 基础知识｜学习指南",
-    "section": "01. 基础知识（先了解产品和核心概念）"
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/README.md",
+    "title": "02. Email Studio｜学习指南",
+    "section": "02. Email Studio（邮件制作与发送）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/01.-email-studio-jie-shao.md",
@@ -110,9 +115,9 @@
     "section": "02. Email Studio（邮件制作与发送）"
   },
   {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/02.-email-studio/README.md",
-    "title": "02. Email Studio｜学习指南",
-    "section": "02. Email Studio（邮件制作与发送）"
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/README.md",
+    "title": "03. Automation Studio｜学习指南",
+    "section": "03. Automation Studio（自动化处理）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/01.automation-studio-jie-shao.md",
@@ -165,9 +170,9 @@
     "section": "03. Automation Studio（自动化处理）"
   },
   {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/03.-automation-studio/README.md",
-    "title": "03. Automation Studio｜学习指南",
-    "section": "03. Automation Studio（自动化处理）"
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/README.md",
+    "title": "04. Journey Builder｜学习指南",
+    "section": "04. Journey Builder（客户旅程）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/01.journey-builder-jie-shao.md",
@@ -265,9 +270,9 @@
     "section": "04. Journey Builder（客户旅程）"
   },
   {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/04.-journey-builder/README.md",
-    "title": "04. Journey Builder｜学习指南",
-    "section": "04. Journey Builder（客户旅程）"
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/README.md",
+    "title": "05. Contact Builder｜学习指南",
+    "section": "05. Contact Builder（联系人与数据关系）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/01.contact-builder-jie-shao.md",
@@ -300,9 +305,9 @@
     "section": "05. Contact Builder（联系人与数据关系）"
   },
   {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/05.-contact-builder/README.md",
-    "title": "05. Contact Builder｜学习指南",
-    "section": "05. Contact Builder（联系人与数据关系）"
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/README.md",
+    "title": "06. Personalization｜学习指南",
+    "section": "06. Personalization（个性化营销）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/01.personalization-jie-shao.md",
@@ -345,14 +350,14 @@
     "section": "06. Personalization（个性化营销）"
   },
   {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/06.-personalization/README.md",
-    "title": "06. Personalization｜学习指南",
-    "section": "06. Personalization（个性化营销）"
-  },
-  {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/07.-development.md",
     "title": "07. Development（开发基础）",
     "section": ""
+  },
+  {
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/README.md",
+    "title": "08. API / Integration｜学习指南",
+    "section": "08. API / Integration（接口与系统集成）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/01.api-jie-shao.md",
@@ -395,9 +400,9 @@
     "section": "08. API / Integration（接口与系统集成）"
   },
   {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/08.-api-integration/README.md",
-    "title": "08. API / Integration｜学习指南",
-    "section": "08. API / Integration（接口与系统集成）"
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/README.md",
+    "title": "09. Deliverability｜学习指南",
+    "section": "09. Deliverability（邮件送达）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/01.deliverability-jie-shao.md",
@@ -440,9 +445,9 @@
     "section": "09. Deliverability（邮件送达）"
   },
   {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/09.-deliverability/README.md",
-    "title": "09. Deliverability｜学习指南",
-    "section": "09. Deliverability（邮件送达）"
+    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/README.md",
+    "title": "10. 问题记录｜学习指南",
+    "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
     "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/01.subscriber-subscription.md",
@@ -490,14 +495,9 @@
     "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/10.-wen-ti-ji-lu/README.md",
-    "title": "10. 问题记录｜学习指南",
-    "section": "10. 问题记录（实际问题与解决方法）"
-  },
-  {
-    "path": "marketingcloud/marketing-cloud-xue-xi-bi-ji/geng-xin-ji-lu.md",
-    "title": "📢 更新记录",
-    "section": ""
+    "path": "ri-ben-yu-xue-xi/README.md",
+    "title": "日语学习指南｜从基础到 JLPT",
+    "section": "00 はじめに"
   },
   {
     "path": "ri-ben-yu-xue-xi/01-no/README.md",
@@ -510,18 +510,23 @@
     "section": "01 日本語の基礎（日语基础）"
   },
   {
+    "path": "ri-ben-yu-xue-xi/01-no/norru.md",
+    "title": "日本語の発音・音声ルール",
+    "section": "01 日本語の基礎（日语基础）"
+  },
+  {
     "path": "ri-ben-yu-xue-xi/01-no/no.md",
     "title": "日本語の基本文型",
     "section": "01 日本語の基礎（日语基础）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/01-no/nojoshi.md",
-    "title": "日本語の助詞（じょし）",
+    "path": "ri-ben-yu-xue-xi/01-no/noto.md",
+    "title": "日本語の動詞分類と活用",
     "section": "01 日本語の基礎（日语基础）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/01-no/norru.md",
-    "title": "日本語の発音・音声ルール",
+    "path": "ri-ben-yu-xue-xi/01-no/nojoshi.md",
+    "title": "日本語の助詞（じょし）",
     "section": "01 日本語の基礎（日语基础）"
   },
   {
@@ -535,13 +540,33 @@
     "section": "01 日本語の基礎（日语基础）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/01-no/noto.md",
-    "title": "日本語の動詞分類と活用",
-    "section": "01 日本語の基礎（日语基础）"
-  },
-  {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/README.md",
     "title": "02 文法｜学习指南",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no.md",
+    "title": "日本語の疑問文・疑問詞",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/noagerukurerumorau.md",
+    "title": "日本語の授受表現（あげる・くれる・もらう）",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/noto.md",
+    "title": "日本語の可能形と可能表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/noto-1.md",
+    "title": "日本語の受身形と受身表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/noto-2.md",
+    "title": "日本語の使役形と使役表現",
     "section": "02 文法（日语语法）"
   },
   {
@@ -550,88 +575,8 @@
     "section": "02 文法（日语语法）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-10.md",
-    "title": "日本語の伝聞・引用表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-11.md",
-    "title": "日本語の文末表現・終助詞",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-12.md",
-    "title": "日本語の複合助詞・複合表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-13.md",
-    "title": "日本語の依頼・許可・禁止表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-14.md",
-    "title": "日本語の義務・必要・不必要表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-15.md",
-    "title": "日本語の状態・変化表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-16.md",
-    "title": "日本語の時間・順序表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-17.md",
-    "title": "日本語の限定・強調表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-18.md",
-    "title": "日本語の付帯状況・同時動作表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-19.md",
-    "title": "日本語の比喩・例示表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
     "path": "ri-ben-yu-xue-xi/02-wen-fa/no-2.md",
     "title": "日本語の推量・意志表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-20.md",
-    "title": "日本語の追加・累加表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-21.md",
-    "title": "日本語の経験・習慣表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-22.md",
-    "title": "日本語の判断・確信表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-23.md",
-    "title": "日本語の様態・推定表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-24.md",
-    "title": "日本語の婉曲・断定回避表現",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-25.md",
-    "title": "日本語の文法総合整理",
     "section": "02 文法（日语语法）"
   },
   {
@@ -670,18 +615,13 @@
     "section": "02 文法（日语语法）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/no.md",
-    "title": "日本語の疑問文・疑問詞",
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-10.md",
+    "title": "日本語の伝聞・引用表現",
     "section": "02 文法（日语语法）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/noagerukurerumorau.md",
-    "title": "日本語の授受表現（あげる・くれる・もらう）",
-    "section": "02 文法（日语语法）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/noasupekuto.md",
-    "title": "日本語の補助動詞・アスペクト表現",
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-11.md",
+    "title": "日本語の文末表現・終助詞",
     "section": "02 文法（日语语法）"
   },
   {
@@ -690,18 +630,78 @@
     "section": "02 文法（日语语法）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/noto-1.md",
-    "title": "日本語の受身形と受身表現",
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-12.md",
+    "title": "日本語の複合助詞・複合表現",
     "section": "02 文法（日语语法）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/noto-2.md",
-    "title": "日本語の使役形と使役表現",
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/noasupekuto.md",
+    "title": "日本語の補助動詞・アスペクト表現",
     "section": "02 文法（日语语法）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/02-wen-fa/noto.md",
-    "title": "日本語の可能形と可能表現",
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-13.md",
+    "title": "日本語の依頼・許可・禁止表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-14.md",
+    "title": "日本語の義務・必要・不必要表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-15.md",
+    "title": "日本語の状態・変化表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-16.md",
+    "title": "日本語の時間・順序表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-17.md",
+    "title": "日本語の限定・強調表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-18.md",
+    "title": "日本語の付帯状況・同時動作表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-19.md",
+    "title": "日本語の比喩・例示表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-20.md",
+    "title": "日本語の追加・累加表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-21.md",
+    "title": "日本語の経験・習慣表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-22.md",
+    "title": "日本語の判断・確信表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-23.md",
+    "title": "日本語の様態・推定表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-24.md",
+    "title": "日本語の婉曲・断定回避表現",
+    "section": "02 文法（日语语法）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/02-wen-fa/no-25.md",
+    "title": "日本語の文法総合整理",
     "section": "02 文法（日语语法）"
   },
   {
@@ -710,53 +710,13 @@
     "section": "03 語彙（日语词汇）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/be-minisuru.md",
-    "title": "食べ物・飲み物に関する語彙",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/bijinesunisuru.md",
     "title": "仕事・ビジネスに関する基本語彙",
     "section": "03 語彙（日语词汇）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/fu-ci-jie-xu-ci-cheng-du-biao-xian.md",
-    "title": "副詞・接続詞・程度表現",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/i-onisuru.md",
-    "title": "買い物・お金に関する語彙",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/it-intnettonisuru.md",
     "title": "IT・技術・インターネットに関する語彙",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/katakana.md",
-    "title": "カタカナ語・外来語",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/ki-nisuru.md",
-    "title": "契約・手続き・行政に関する語彙",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/kinisuru.md",
-    "title": "職業・職種・働き方に関する語彙",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/komyunikshonnisuru.md",
-    "title": "人間関係・コミュニケーションに関する語彙",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/kotowaza.md",
-    "title": "慣用句・ことわざ",
     "section": "03 語彙（日语词汇）"
   },
   {
@@ -775,8 +735,33 @@
     "section": "03 語彙（日语词汇）"
   },
   {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru.md",
+    "title": "学校・教育に関する語彙",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/no.md",
+    "title": "日常生活の基本語彙",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/onomatope.md",
+    "title": "オノマトペ（擬音語・擬態語）",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/katakana.md",
+    "title": "カタカナ語・外来語",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-4.md",
     "title": "交通・旅行に関する語彙",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/komyunikshonnisuru.md",
+    "title": "人間関係・コミュニケーションに関する語彙",
     "section": "03 語彙（日语词汇）"
   },
   {
@@ -790,28 +775,23 @@
     "section": "03 語彙（日语词汇）"
   },
   {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/fu-ci-jie-xu-ci-cheng-du-biao-xian.md",
+    "title": "副詞・接続詞・程度表現",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/ki-nisuru.md",
+    "title": "契約・手続き・行政に関する語彙",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/kotowaza.md",
+    "title": "慣用句・ことわざ",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
     "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-7.md",
     "title": "抽象概念・思考に関する語彙",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-8.md",
-    "title": "自然・天気・季節に関する語彙",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru.md",
-    "title": "学校・教育に関する語彙",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/no-1.md",
-    "title": "類義語・対義語の整理",
-    "section": "03 語彙（日语词汇）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/no.md",
-    "title": "日常生活の基本語彙",
     "section": "03 語彙（日语词汇）"
   },
   {
@@ -820,8 +800,28 @@
     "section": "03 語彙（日语词汇）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/03-yu-hui/onomatope.md",
-    "title": "オノマトペ（擬音語・擬態語）",
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/kinisuru.md",
+    "title": "職業・職種・働き方に関する語彙",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/nisuru-8.md",
+    "title": "自然・天気・季節に関する語彙",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/i-onisuru.md",
+    "title": "買い物・お金に関する語彙",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/no-1.md",
+    "title": "類義語・対義語の整理",
+    "section": "03 語彙（日语词汇）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/03-yu-hui/be-minisuru.md",
+    "title": "食べ物・飲み物に関する語彙",
     "section": "03 語彙（日语词汇）"
   },
   {
@@ -830,43 +830,8 @@
     "section": "04 漢字（日语汉字）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/04-kanji/er-zi-shu-yu-si-zi-shu-yu.md",
-    "title": "二字熟語・四字熟語",
-    "section": "04 漢字（日语汉字）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn1-gao-du-han-zi-yu-hui.md",
-    "title": "JLPT N1 高度漢字・語彙",
-    "section": "04 漢字（日语汉字）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn2-han-zi-yu-hui.md",
-    "title": "JLPT N2 漢字・語彙",
-    "section": "04 漢字（日语汉字）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn3-han-zi-yu-hui.md",
-    "title": "JLPT N3 漢字・語彙",
-    "section": "04 漢字（日语汉字）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn4-ji-chu-han-zi.md",
-    "title": "JLPT N4 基礎漢字",
-    "section": "04 漢字（日语汉字）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn5-ji-chu-han-zi.md",
-    "title": "JLPT N5 基礎漢字",
-    "section": "04 漢字（日语汉字）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/04-kanji/kino.md",
-    "title": "筆順・書き方の基本",
-    "section": "04 漢字（日语汉字）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/04-kanji/mi-mi.md",
-    "title": "音読み・訓読み",
+    "path": "ri-ben-yu-xue-xi/04-kanji/nogaido.md",
+    "title": "漢字学習の基本ガイド",
     "section": "04 漢字（日语汉字）"
   },
   {
@@ -875,8 +840,13 @@
     "section": "04 漢字（日语汉字）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/04-kanji/nogaido.md",
-    "title": "漢字学習の基本ガイド",
+    "path": "ri-ben-yu-xue-xi/04-kanji/mi-mi.md",
+    "title": "音読み・訓読み",
+    "section": "04 漢字（日语汉字）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/04-kanji/kino.md",
+    "title": "筆順・書き方の基本",
     "section": "04 漢字（日语汉字）"
   },
   {
@@ -885,23 +855,43 @@
     "section": "04 漢字（日语汉字）"
   },
   {
+    "path": "ri-ben-yu-xue-xi/04-kanji/er-zi-shu-yu-si-zi-shu-yu.md",
+    "title": "二字熟語・四字熟語",
+    "section": "04 漢字（日语汉字）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn5-ji-chu-han-zi.md",
+    "title": "JLPT N5 基礎漢字",
+    "section": "04 漢字（日语汉字）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn4-ji-chu-han-zi.md",
+    "title": "JLPT N4 基礎漢字",
+    "section": "04 漢字（日语汉字）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn3-han-zi-yu-hui.md",
+    "title": "JLPT N3 漢字・語彙",
+    "section": "04 漢字（日语汉字）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn2-han-zi-yu-hui.md",
+    "title": "JLPT N2 漢字・語彙",
+    "section": "04 漢字（日语汉字）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/04-kanji/jlptn1-gao-du-han-zi-yu-hui.md",
+    "title": "JLPT N1 高度漢字・語彙",
+    "section": "04 漢字（日语汉字）"
+  },
+  {
     "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/README.md",
     "title": "05 JLPT対策｜学习指南",
     "section": "05 JLPT対策（日语能力考试）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n1-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
-    "title": "N1 日本語能力試験対策",
-    "section": "05 JLPT対策（日语能力考试）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n2-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
-    "title": "N2 日本語能力試験対策",
-    "section": "05 JLPT対策（日语能力考试）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n3-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
-    "title": "N3 日本語能力試験対策",
+    "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n5-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
+    "title": "N5 日本語能力試験対策",
     "section": "05 JLPT対策（日语能力考试）"
   },
   {
@@ -910,8 +900,18 @@
     "section": "05 JLPT対策（日语能力考试）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n5-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
-    "title": "N5 日本語能力試験対策",
+    "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n3-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
+    "title": "N3 日本語能力試験対策",
+    "section": "05 JLPT対策（日语能力考试）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n2-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
+    "title": "N2 日本語能力試験対策",
+    "section": "05 JLPT対策（日语能力考试）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/05-jlpt-dui-ce/n1-ri-ben-yu-neng-li-shi-yan-dui-ce.md",
+    "title": "N1 日本語能力試験対策",
     "section": "05 JLPT対策（日语能力考试）"
   },
   {
@@ -925,6 +925,26 @@
     "section": "06 日常会話（日常会话）"
   },
   {
+    "path": "ri-ben-yu-xue-xi/06-daily-conversation/no-notsunagi.md",
+    "title": "日常の雑談・会話のつなぎ方",
+    "section": "06 日常会話（日常会话）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/06-daily-conversation/i-deno.md",
+    "title": "買い物・店での会話",
+    "section": "06 日常会話（日常会话）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/06-daily-conversation/resutorandeno.md",
+    "title": "飲食店・レストランでの会話",
+    "section": "06 日常会話（日常会话）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/06-daily-conversation/deno.md",
+    "title": "駅・電車・交通機関での会話",
+    "section": "06 日常会話（日常会话）"
+  },
+  {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/deno-1.md",
     "title": "病院・薬局での会話",
     "section": "06 日常会話（日常会话）"
@@ -935,28 +955,8 @@
     "section": "06 日常会話（日常会话）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/06-daily-conversation/deno.md",
-    "title": "駅・電車・交通機関での会話",
-    "section": "06 日常会話（日常会话）"
-  },
-  {
     "path": "ri-ben-yu-xue-xi/06-daily-conversation/hoterudeno.md",
     "title": "旅行・ホテルでの会話",
-    "section": "06 日常会話（日常会话）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/06-daily-conversation/i-deno.md",
-    "title": "買い物・店での会話",
-    "section": "06 日常会話（日常会话）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/06-daily-conversation/no-notsunagi.md",
-    "title": "日常の雑談・会話のつなぎ方",
-    "section": "06 日常会話（日常会话）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/06-daily-conversation/resutorandeno.md",
-    "title": "飲食店・レストランでの会話",
     "section": "06 日常会話（日常会话）"
   },
   {
@@ -975,13 +975,8 @@
     "section": "07 ビジネス日本語（商务日语）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/07-bijinesu/bao-gao-lian-luo-xiang-tan-bao-lian-xiang.md",
-    "title": "報告・連絡・相談（報連相）",
-    "section": "07 ビジネス日本語（商务日语）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/07-bijinesu/bijinesu.md",
-    "title": "ビジネス電話応対",
+    "path": "ri-ben-yu-xue-xi/07-bijinesu/bijinesuno.md",
+    "title": "ビジネス敬語の基本",
     "section": "07 ビジネス日本語（商务日语）"
   },
   {
@@ -990,8 +985,8 @@
     "section": "07 ビジネス日本語（商务日语）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/07-bijinesu/bijinesuno.md",
-    "title": "ビジネス敬語の基本",
+    "path": "ri-ben-yu-xue-xi/07-bijinesu/bijinesu.md",
+    "title": "ビジネス電話応対",
     "section": "07 ビジネス日本語（商务日语）"
   },
   {
@@ -1000,18 +995,8 @@
     "section": "07 ビジネス日本語（商务日语）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/07-bijinesu/deno.md",
-    "title": "面接・職場での自己紹介",
-    "section": "07 ビジネス日本語（商务日语）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/07-bijinesu/no.md",
-    "title": "業務文書・報告書の表現",
-    "section": "07 ビジネス日本語（商务日语）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/07-bijinesu/shang-tan-jiao-she-ti-an.md",
-    "title": "商談・交渉・提案",
+    "path": "ri-ben-yu-xue-xi/07-bijinesu/bao-gao-lian-luo-xiang-tan-bao-lian-xiang.md",
+    "title": "報告・連絡・相談（報連相）",
     "section": "07 ビジネス日本語（商务日语）"
   },
   {
@@ -1020,18 +1005,28 @@
     "section": "07 ビジネス日本語（商务日语）"
   },
   {
+    "path": "ri-ben-yu-xue-xi/07-bijinesu/shang-tan-jiao-she-ti-an.md",
+    "title": "商談・交渉・提案",
+    "section": "07 ビジネス日本語（商务日语）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/07-bijinesu/no.md",
+    "title": "業務文書・報告書の表現",
+    "section": "07 ビジネス日本語（商务日语）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/07-bijinesu/deno.md",
+    "title": "面接・職場での自己紹介",
+    "section": "07 ビジネス日本語（商务日语）"
+  },
+  {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/README.md",
     "title": "08 読解・聴解｜学习指南",
     "section": "08 読解・聴解（阅读与听力）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/chang-wen-du-jie-shi-jian-pei-fen.md",
-    "title": "長文読解・時間配分",
-    "section": "08 読解・聴解（阅读与听力）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/gai-yao-li-jie-ji-shi-ying-da.md",
-    "title": "概要理解・即時応答",
+    "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/no.md",
+    "title": "読解の基本・文章構造",
     "section": "08 読解・聴解（阅读与听力）"
   },
   {
@@ -1045,18 +1040,23 @@
     "section": "08 読解・聴解（阅读与听力）"
   },
   {
+    "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/chang-wen-du-jie-shi-jian-pei-fen.md",
+    "title": "長文読解・時間配分",
+    "section": "08 読解・聴解（阅读与听力）"
+  },
+  {
     "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/no-kiri.md",
     "title": "聴解の基本・聞き取り方",
     "section": "08 読解・聴解（阅读与听力）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/no.md",
-    "title": "読解の基本・文章構造",
+    "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/pointo.md",
+    "title": "課題理解・ポイント理解",
     "section": "08 読解・聴解（阅读与听力）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/pointo.md",
-    "title": "課題理解・ポイント理解",
+    "path": "ri-ben-yu-xue-xi/08-du-jie-ting-jie/gai-yao-li-jie-ji-shi-ying-da.md",
+    "title": "概要理解・即時応答",
     "section": "08 読解・聴解（阅读与听力）"
   },
   {
@@ -1070,8 +1070,33 @@
     "section": "09 学習資料（学习资料与复习）"
   },
   {
+    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/note.md",
+    "title": "日本語学習計画の立て方",
+    "section": "09 学習資料（学习资料与复习）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/nto.md",
+    "title": "語彙ノート・復習方法",
+    "section": "09 学習資料（学习资料与复习）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/shtonori.md",
+    "title": "文法復習シートの作り方",
+    "section": "09 学習資料（学习资料与复习）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/shto.md",
+    "title": "漢字・熟語復習シート",
+    "section": "09 学習資料（学习资料与复习）"
+  },
+  {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/into.md",
     "title": "間違いノート・弱点分析",
+    "section": "09 学習資料（学习资料与复习）"
+  },
+  {
+    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/saitono.md",
+    "title": "辞書・学習サイトの活用",
     "section": "09 学習資料（学习资料与复习）"
   },
   {
@@ -1085,38 +1110,13 @@
     "section": "09 学習資料（学习资料与复习）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/note.md",
-    "title": "日本語学習計画の立て方",
-    "section": "09 学習資料（学习资料与复习）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/nto.md",
-    "title": "語彙ノート・復習方法",
-    "section": "09 学習資料（学习资料与复习）"
-  },
-  {
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/rinku.md",
     "title": "日本語学習リンク集・教材案内",
     "section": "09 学習資料（学习资料与复习）"
   },
   {
-    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/saitono.md",
-    "title": "辞書・学習サイトの活用",
-    "section": "09 学習資料（学习资料与复习）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/shto.md",
-    "title": "漢字・熟語復習シート",
-    "section": "09 学習資料（学习资料与复习）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/shtonori.md",
-    "title": "文法復習シートの作り方",
-    "section": "09 学習資料（学习资料与复习）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/README.md",
-    "title": "日语学习指南｜从基础到 JLPT",
-    "section": "00 はじめに"
+    "path": "home/README.md",
+    "title": "首页｜学习和产品知识库",
+    "section": ""
   }
 ]
