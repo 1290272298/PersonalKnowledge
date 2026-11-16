@@ -500,6 +500,11 @@
     "section": "10. 问题记录（实际问题与解决方法）"
   },
   {
+    "path": "ri-ben-yu-xue-xi/README.md",
+    "title": "日语学习指南｜从基础到 JLPT",
+    "section": "00 はじめに"
+  },
+  {
     "path": "ri-ben-yu-xue-xi/01-no/README.md",
     "title": "01 日本語の基礎｜学习指南",
     "section": "01 日本語の基礎（日语基础）"
@@ -1113,10 +1118,5 @@
     "path": "ri-ben-yu-xue-xi/09-xue-xi-zi-liao/rinku.md",
     "title": "日本語学習リンク集・教材案内",
     "section": "09 学習資料（学习资料与复习）"
-  },
-  {
-    "path": "ri-ben-yu-xue-xi/README.md",
-    "title": "日语学习指南｜从基础到 JLPT",
-    "section": "00 はじめに"
   }
 ]
