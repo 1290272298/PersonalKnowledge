@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Marketing Cloud 学习笔记](README.md)
-  * [📢 更新记录](marketing-cloud-xue-xi-bi-ji/geng-xin-ji-lu.md)
   * [01. 基础知识](marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/README.md)
     * [01. 介绍](marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/01.-jie-shao.md)
     * [02. 产品体系与功能关系](marketing-cloud-xue-xi-bi-ji/01.-ji-chu-zhi-shi/02.-chan-pin-ti-xi-yu-gong-neng-guan-xi.md)
@@ -70,7 +69,7 @@
     * [06. Content Zone](marketing-cloud-xue-xi-bi-ji/06.-personalization/06.content-zone.md)
     * [07. Campaign](marketing-cloud-xue-xi-bi-ji/06.-personalization/07.campaign.md)
     * [08. Client-side Code](marketing-cloud-xue-xi-bi-ji/06.-personalization/08.client-side-code.md)
-  * [07. Development](marketing-cloud-xue-xi-bi-ji/07.-development.md)
+  * [07. Development（开发基础）](marketing-cloud-xue-xi-bi-ji/07.-development/README.md)
   * [08. API / Integration](marketing-cloud-xue-xi-bi-ji/08.-api-integration/README.md)
     * [01. API 介绍](marketing-cloud-xue-xi-bi-ji/08.-api-integration/01.api-jie-shao.md)
     * [02. REST API](marketing-cloud-xue-xi-bi-ji/08.-api-integration/02.rest-api.md)
