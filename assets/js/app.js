@@ -78,7 +78,7 @@ function setupSearch(){
   const corpus=await buildSearchCorpus();if(id!==request)return;
   const groups=queryGroups(q);const hits=corpus.map(p=>{const matched=groups.map(group=>group.find(term=>p.text.includes(term))).filter(Boolean);return {...p,matched,score:(normalizeText(p.title).includes(normalizeText(q))?100:0)+(matched.length*5)+(p.text.startsWith(normalizeText(q))?10:0)}}).filter(p=>p.matched.length===groups.length).sort((a,b)=>b.score-a.score).slice(0,30);
   const status='<p class="search-status">找到 '+hits.length+' 条结果'+(corpus.failed?'；'+corpus.failed+' 篇文章暂时无法读取':'')+'。支持中文、日文、英文和多个关键词。</p>';
-  box.innerHTML=status+(hits.map(p=>'<a href="#'+encodeURIComponent(p.path)+'"><strong>'+esc(p.title)+'</strong><small>'+esc(p.section||p.path.split("/").slice(0,-1).join(" / "))+'</small><small>'+makeSnippet(p,terms)+'</small></a>').join("")||'<p class="search-status">没有找到完全匹配的内容。试试更短的词，例如「DE」「邮件」「语法」「N2」。</p>');
+  box.innerHTML=status+(hits.map(p=>'<a href="#'+encodeURIComponent(p.path)+'"><strong>'+esc(p.title)+'</strong><small>'+esc(p.section||p.path.split("/").slice(0,-1).join(" / "))+'</small><small>'+makeSnippet(p,groups.flat())+'</small></a>').join("")||'<p class="search-status">没有找到完全匹配的内容。试试更短的词，例如「DE」「邮件」「语法」「N2」。</p>');
  }
  input.addEventListener("input",search);input.addEventListener("keydown",e=>{if(e.key==="Escape"){box.classList.remove("show");input.blur()}if(e.key==="Enter"){const first=box.querySelector("a");if(first)first.click()}});
  box.addEventListener("click",e=>{if(e.target.closest("a"))box.classList.remove("show")});
