@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">類義語・対義語を比べる</title><desc id="desc">似た意味の語と、反対の意味の語は、文脈と使い方も一緒に覚える</desc><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#fffaf3"/></linearGradient><filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#334155" flood-opacity=".10"/></filter></defs><rect width="1200" height="760" rx="28" fill="url(#bg)"/><text x="600" y="65" text-anchor="middle" font-family="sans-serif" font-size="38" font-weight="800" fill="#26384d">類義語・対義語を比べる</text><text x="600" y="103" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#64748b">似た意味の語と、反対の意味の語は、文脈と使い方も一緒に覚える</text>
+<g font-family="sans-serif">
+<g filter="url(#s)"><rect x="75" y="155" width="490" height="430" rx="24" fill="#e8f2ff"/><rect x="635" y="155" width="490" height="430" rx="24" fill="#fff1df"/></g>
+<text x="320" y="215" text-anchor="middle" font-size="30" font-weight="700" fill="#315f91">類義語（意味が近い）</text>
+<rect x="150" y="260" width="340" height="80" rx="18" fill="#fff"/><text x="320" y="312" text-anchor="middle" font-size="30" font-weight="700" fill="#334155">始める</text>
+<path d="M320 350 V390" stroke="#6f9fc8" stroke-width="4"/><path d="M308 378 L320 392 L332 378" fill="none" stroke="#6f9fc8" stroke-width="4"/>
+<rect x="150" y="410" width="340" height="80" rx="18" fill="#fff"/><text x="320" y="462" text-anchor="middle" font-size="30" font-weight="700" fill="#334155">開始する</text>
+<text x="320" y="540" text-anchor="middle" font-size="18" fill="#526579">意味は近いが、文体や場面が異なる</text>
+<text x="880" y="215" text-anchor="middle" font-size="30" font-weight="700" fill="#9a6b2f">対義語（反対の意味）</text>
+<rect x="710" y="260" width="340" height="80" rx="18" fill="#fff"/><text x="880" y="312" text-anchor="middle" font-size="30" font-weight="700" fill="#334155">増える</text>
+<path d="M880 350 V390" stroke="#d7a45d" stroke-width="4"/><path d="M868 378 L880 392 L892 378" fill="none" stroke="#d7a45d" stroke-width="4"/>
+<rect x="710" y="410" width="340" height="80" rx="18" fill="#fff"/><text x="880" y="462" text-anchor="middle" font-size="30" font-weight="700" fill="#334155">減る</text>
+<text x="880" y="540" text-anchor="middle" font-size="18" fill="#7a6548">一方が増加し、もう一方が減少する</text>
+</g></svg>
