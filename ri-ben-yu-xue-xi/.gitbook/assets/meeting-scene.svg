@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">会議で使う日本語</title><desc id="desc">議題の確認、意見の提示、質問、合意の確認を意識する</desc><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#fffaf3"/></linearGradient><filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#334155" flood-opacity=".10"/></filter></defs><rect width="1200" height="760" rx="28" fill="url(#bg)"/><text x="600" y="65" text-anchor="middle" font-family="sans-serif" font-size="38" font-weight="800" fill="#26384d">会議で使う日本語</text><text x="600" y="103" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#64748b">議題の確認、意見の提示、質問、合意の確認を意識する</text>
+<g font-family="sans-serif">
+<rect x="70" y="150" width="1060" height="420" rx="24" fill="#e3f1ff" filter="url(#s)"/>
+<rect x="430" y="180" width="340" height="78" rx="16" fill="#fff" stroke="#9bb6ce" stroke-width="3"/><text x="600" y="229" text-anchor="middle" font-size="27" font-weight="700" fill="#315f91">会議の議題</text>
+<g transform="translate(300 365)"><circle cx="0" cy="0" r="38" fill="#efc7a8"/><path d="M-52 150 Q-48 55 0 55 Q48 55 52 150" fill="#5b91b5"/></g>
+<g transform="translate(900 365)"><circle cx="0" cy="0" r="38" fill="#e8bd9e"/><path d="M-52 150 Q-48 55 0 55 Q48 55 52 150" fill="#d58b88"/></g>
+<rect x="125" y="220" width="300" height="82" rx="18" fill="#fff"/><text x="275" y="270" text-anchor="middle" font-size="20" fill="#334155">本日の議題を確認します。</text>
+<rect x="775" y="220" width="300" height="82" rx="18" fill="#fff"/><text x="925" y="270" text-anchor="middle" font-size="20" fill="#334155">私から説明いたします。</text>
+<rect x="390" y="495" width="420" height="52" rx="14" fill="#fff"/><text x="600" y="529" text-anchor="middle" font-size="20" font-weight="700" fill="#456783">最後に決定事項と担当を確認</text>
+<text x="600" y="650" text-anchor="middle" font-size="19" fill="#64748b">発言は簡潔に。分からない点は、その場で確認しましょう。</text>
+</g></svg>
