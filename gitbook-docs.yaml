@@ -1,0 +1,47 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: 学习与项目知识库
+  structure:
+    - type: section
+      key: home
+      title: 首页
+      path: home
+      description: ""
+      icon: house
+      default: true
+      children:
+        - type: space
+          key: home-space
+          title: 首页
+          path: home
+          default: true
+          content:
+            directory: ./home
+    - type: section
+      key: marketing-cloud
+      title: Marketing Cloud
+      path: marketingcloud
+      icon: book-open
+      children:
+        - type: space
+          key: marketing-cloud-space
+          title: Marketing Cloud 学习笔记
+          path: marketingcloud
+          default: true
+          content:
+            directory: ./marketingcloud
+            language: zh
+    - type: section
+      key: section-1
+      title: 日本語学習
+      path: japanese
+      description: ""
+      children:
+        - type: space
+          key: space-1
+          title: 日本語学習
+          path: ri-ben-yu-xue-xi
+          default: true
+          content:
+            directory: ./ri-ben-yu-xue-xi
+            language: ja
