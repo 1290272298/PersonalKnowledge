@@ -70,7 +70,7 @@ async function buildSearchCorpus(){
   await Promise.all(Array.from({length:10},worker));searchCorpus=out;searchCorpus.failed=failed;return out
  })();return searchPromise
 }
-function makeSnippet(p,groups.flat()){const at=terms.map(t=>p.text.indexOf(t)).filter(n=>n>=0).sort((a,b)=>a-b)[0]||0;const start=Math.max(0,at-48);return esc((start?"…":"")+p.plain.slice(start,start+150)+(start+150<p.plain.length?"…":""))}
+function makeSnippet(p,terms){const at=terms.map(t=>p.text.indexOf(t)).filter(n=>n>=0).sort((a,b)=>a-b)[0]||0;const start=Math.max(0,at-48);return esc((start?"…":"")+p.plain.slice(start,start+150)+(start+150<p.plain.length?"…":""))}
 function setupSearch(){
  const input=$("#search"),box=$("#searchResults");let request=0;
  async function search(){const q=input.value.trim();if(!q){box.classList.remove("show");box.innerHTML="";return}
