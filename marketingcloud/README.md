@@ -44,4 +44,4 @@
 
 ## 更新记录
 
-详细更新记录见 [更新记录](marketing-cloud-xue-xi-bi-ji/geng-xin-ji-lu.md)。
+全知识库的更新情况统一记录在[知识库更新记录](../home/geng-xin-ji-lu.md)中。
