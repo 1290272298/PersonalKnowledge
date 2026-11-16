@@ -4,3 +4,10 @@
 
 /* 右侧文章目录定位时避开顶部固定导航栏 */
 article h2,article h3{scroll-margin-top:88px}
+
+/* 日语句子悬停/点击翻译 */
+.jp-translate{border-bottom:1px dotted #8aa5c8;cursor:help;text-decoration:none}
+.jp-translate:hover{background:#fff4d6;border-radius:3px}
+.jp-translation-tip{display:none;position:fixed;z-index:9999;max-width:min(360px,calc(100vw - 24px));padding:10px 13px;background:#172033;color:#fff;border-radius:9px;box-shadow:0 8px 26px #0003;font-size:13px;line-height:1.65;overflow-wrap:anywhere;pointer-events:none}
+.jp-translation-tip.visible{display:block}
+@media(max-width:620px){.jp-translate{border-bottom-style:solid}.jp-translation-tip{max-width:calc(100vw - 24px);font-size:14px}}
