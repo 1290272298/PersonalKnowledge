@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc"><title id="title">オノマトペ：音や様子を表す言葉</title><desc id="desc">擬音語は音、擬態語は状態や動きなどを表す</desc><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#fffaf3"/></linearGradient><filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#334155" flood-opacity=".10"/></filter></defs><rect width="1200" height="760" rx="28" fill="url(#bg)"/><text x="600" y="65" text-anchor="middle" font-family="sans-serif" font-size="38" font-weight="800" fill="#26384d">オノマトペ：音や様子を表す言葉</text><text x="600" y="103" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#64748b">擬音語は音、擬態語は状態や動きなどを表す</text>
+<g font-family="sans-serif">
+<g filter="url(#s)"><rect x="75" y="150" width="490" height="445" rx="24" fill="#e3f1ff"/><rect x="635" y="150" width="490" height="445" rx="24" fill="#f0eaff"/></g>
+<text x="320" y="215" text-anchor="middle" font-size="30" font-weight="700" fill="#315f91">擬音語・擬声語</text>
+<path d="M170 285 Q205 250 240 285 T310 285 T380 285" fill="none" stroke="#6c9ecb" stroke-width="8" stroke-linecap="round"/>
+<text x="320" y="365" text-anchor="middle" font-size="38" font-weight="800" fill="#334155">ザーザー</text>
+<text x="320" y="420" text-anchor="middle" font-size="20" fill="#526579">雨がザーザー降っています。</text>
+<text x="320" y="505" text-anchor="middle" font-size="18" fill="#526579">音や声を言葉で表す</text>
+<text x="880" y="215" text-anchor="middle" font-size="30" font-weight="700" fill="#705aa4">擬態語</text>
+<circle cx="790" cy="300" r="10" fill="#a18bd0"/><circle cx="840" cy="275" r="15" fill="#a18bd0"/><circle cx="900" cy="305" r="11" fill="#a18bd0"/><circle cx="950" cy="270" r="8" fill="#a18bd0"/>
+<text x="880" y="365" text-anchor="middle" font-size="38" font-weight="800" fill="#334155">キラキラ</text>
+<text x="880" y="420" text-anchor="middle" font-size="20" fill="#526579">星がキラキラ光っています。</text>
+<text x="880" y="505" text-anchor="middle" font-size="18" fill="#526579">状態・様子・動きを表す</text>
+<text x="600" y="665" text-anchor="middle" font-size="19" fill="#64748b">例：ドキドキ（心臓の動き）／すやすや（静かに眠る様子）</text>
+</g></svg>
