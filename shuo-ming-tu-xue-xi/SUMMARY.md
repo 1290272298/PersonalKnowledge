@@ -9,3 +9,5 @@
   * [03. 说明内容的整理与逻辑设计](03.-xin-xi-zheng-li-luo-ji-she-ji/03.-xin-xi-zheng-li-yu-luo-ji-she-ji.md)
 * [学习导航｜日本商务日语与说明文编写](04.-ri-yu-shang-wu-biao-da/README.md)
   * [04. 日本商务日语与说明文编写](04.-ri-yu-shang-wu-biao-da/04.-ri-yu-shang-wu-biao-da.md)
+* [学习导航｜说明图类型与结构设计](05.-shuo-ming-tu-lei-xing-jie-gou/README.md)
+  * [05. 说明图类型与结构设计](05.-shuo-ming-tu-lei-xing-jie-gou/05.-shuo-ming-tu-lei-xing-jie-gou.md)
