@@ -15,3 +15,5 @@
   * [06. 商务视觉设计基础](06.-shang-wu-shi-jue-she-ji/06.-shang-wu-shi-jue-she-ji.md)
 * [学习导航｜制作工具学习与应用](07.-zhi-tu-gong-ju/README.md)
   * [07. 制作工具学习与应用](07.-zhi-tu-gong-ju/07.-zhi-tu-gong-ju.md)
+* [学习导航｜AI 辅助说明图制作](08.-AI-fu-zhu-zhi-zuo/README.md)
+  * [08. AI 辅助说明图制作](08.-AI-fu-zhu-zhi-zuo/08.-AI-fu-zhu-zhi-zuo.md)
