@@ -32,6 +32,20 @@ site:
             directory: ./marketingcloud
             language: zh
     - type: section
+      key: shuo-ming-tu
+      title: 说明图制作
+      path: shuo-ming-tu-xue-xi
+      icon: book-open
+      children:
+        - type: space
+          key: shuo-ming-tu-space
+          title: 日本客户向け说明图制作学习指南
+          path: shuo-ming-tu-xue-xi
+          default: true
+          content:
+            directory: ./shuo-ming-tu-xue-xi
+            language: zh
+    - type: section
       key: section-1
       title: 日本語学習
       path: japanese

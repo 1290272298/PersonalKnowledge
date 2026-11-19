@@ -1118,5 +1118,20 @@
     "path": "ri-ben-yu-xue-xi/README.md",
     "title": "00 日语学习入口｜从零开始",
     "section": "00 はじめに"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/README.md",
+    "title": "日本客户向け说明图制作学习指南",
+    "section": ""
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/01.-ji-chu-zhi-shi/README.md",
+    "title": "01. 说明图制作基础知识｜章节入口",
+    "section": "01. 说明图基础知识（从零开始）"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/01.-ji-chu-zhi-shi/01.-shuo-ming-tu-ji-chu.md",
+    "title": "01. 说明图制作基础知识",
+    "section": "01. 说明图基础知识（从零开始）"
   }
 ]
