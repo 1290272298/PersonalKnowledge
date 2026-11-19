@@ -104,9 +104,8 @@ description: 面向零基础学习者，系统学习如何制作日本客户容�
 
 ## 9. 目录
 
-请从第 01 章开始，按顺序学习：
+按编号顺序学习。每章的“学习导航”用于说明学习目标和练习入口；带章节编号的页面是该章正文。
 
-- [第 01 章：说明图制作基础知识](01.-ji-chu-zhi-shi/01.-shuo-ming-tu-ji-chu.md)
-- [第 01 章学习导航](01.-ji-chu-zhi-shi/README.md)
+- [02. 日本客户的阅读习惯与思考方式](02.-ri-ben-ke-hu-yue-du-xi-guan/02.-ri-ben-ke-hu-yue-du-xi-guan.md)
 
 后续章节会随着课程编写逐步加入。
