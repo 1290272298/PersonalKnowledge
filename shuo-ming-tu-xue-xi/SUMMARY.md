@@ -19,3 +19,5 @@
   * [08. AI 辅助说明图制作](08.-AI-fu-zhu-zhi-zuo/08.-AI-fu-zhu-zhi-zuo.md)
 * [学习导航｜实际制作流程与案例练习](09.-shi-zhan-an-li/README.md)
   * [09. 实际制作流程与案例练习](09.-shi-zhan-an-li/09.-shi-zhan-an-li.md)
+* [学习导航｜质量检查与交付标准](10.-zhi-liang-jian-cha-jiao-fu/README.md)
+  * [10. 质量检查与交付标准](10.-zhi-liang-jian-cha-jiao-fu/10.-zhi-liang-jian-cha-jiao-fu.md)

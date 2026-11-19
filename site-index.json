@@ -1132,7 +1132,7 @@
   {
     "path": "shuo-ming-tu-xue-xi/01.-ji-chu-zhi-shi/01.-shuo-ming-tu-ji-chu.md",
     "title": "01. 说明图制作基础知识",
-    "section": "01. 说明图基础知识（从零开始）"
+    "section": "说明图制作"
   },
   {
     "path": "shuo-ming-tu-xue-xi/02.-ri-ben-ke-hu-yue-du-xi-guan/README.md",
@@ -1142,6 +1142,86 @@
   {
     "path": "shuo-ming-tu-xue-xi/02.-ri-ben-ke-hu-yue-du-xi-guan/02.-ri-ben-ke-hu-yue-du-xi-guan.md",
     "title": "02. 日本客户的阅读习惯与思考方式",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/03.-xin-xi-zheng-li-luo-ji-she-ji/README.md",
+    "title": "学习导航｜说明内容的整理与逻辑设计",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/03.-xin-xi-zheng-li-luo-ji-she-ji/03.-xin-xi-zheng-li-yu-luo-ji-she-ji.md",
+    "title": "03. 说明内容的整理与逻辑设计",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/04.-ri-yu-shang-wu-biao-da/README.md",
+    "title": "学习导航｜日本商务日语与说明文编写",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/04.-ri-yu-shang-wu-biao-da/04.-ri-yu-shang-wu-biao-da.md",
+    "title": "04. 日本商务日语与说明文编写",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/05.-shuo-ming-tu-lei-xing-jie-gou/README.md",
+    "title": "学习导航｜说明图类型与结构设计",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/05.-shuo-ming-tu-lei-xing-jie-gou/05.-shuo-ming-tu-lei-xing-jie-gou.md",
+    "title": "05. 说明图类型与结构设计",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/06.-shang-wu-shi-jue-she-ji/README.md",
+    "title": "学习导航｜商务视觉设计基础",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/06.-shang-wu-shi-jue-she-ji/06.-shang-wu-shi-jue-she-ji.md",
+    "title": "06. 商务视觉设计基础",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/07.-zhi-tu-gong-ju/README.md",
+    "title": "学习导航｜制作工具学习与应用",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/07.-zhi-tu-gong-ju/07.-zhi-tu-gong-ju.md",
+    "title": "07. 制作工具学习与应用",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/08.-AI-fu-zhu-zhi-zuo/README.md",
+    "title": "学习导航｜AI 辅助说明图制作",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/08.-AI-fu-zhu-zhi-zuo/08.-AI-fu-zhu-zhi-zuo.md",
+    "title": "08. AI 辅助说明图制作",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/09.-shi-zhan-an-li/README.md",
+    "title": "学习导航｜实际制作流程与案例练习",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/09.-shi-zhan-an-li/09.-shi-zhan-an-li.md",
+    "title": "09. 实际制作流程与案例练习",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/10.-zhi-liang-jian-cha-jiao-fu/README.md",
+    "title": "学习导航｜质量检查与交付标准",
+    "section": "说明图制作"
+  },
+  {
+    "path": "shuo-ming-tu-xue-xi/10.-zhi-liang-jian-cha-jiao-fu/10.-zhi-liang-jian-cha-jiao-fu.md",
+    "title": "10. 质量检查与交付标准",
     "section": "说明图制作"
   }
 ]

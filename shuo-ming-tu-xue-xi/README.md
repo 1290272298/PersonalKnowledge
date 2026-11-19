@@ -104,8 +104,16 @@ description: 面向零基础学习者，系统学习如何制作日本客户容�
 
 ## 9. 目录
 
-按编号顺序学习。每章的“学习导航”用于说明学习目标和练习入口；带章节编号的页面是该章正文。
+每章的“学习导航”页面用于说明学习目标和练习入口；带章节编号的页面是该章正文。请按 01～10 的顺序学习，避免把导航页误认为正文。
 
+- [01. 说明图制作基础知识](01.-ji-chu-zhi-shi/01.-shuo-ming-tu-ji-chu.md)
 - [02. 日本客户的阅读习惯与思考方式](02.-ri-ben-ke-hu-yue-du-xi-guan/02.-ri-ben-ke-hu-yue-du-xi-guan.md)
+- [03. 说明内容的整理与逻辑设计](03.-xin-xi-zheng-li-luo-ji-she-ji/03.-xin-xi-zheng-li-yu-luo-ji-she-ji.md)
+- [04. 日本商务日语与说明文编写](04.-ri-yu-shang-wu-biao-da/04.-ri-yu-shang-wu-biao-da.md)
+- [05. 说明图类型与结构设计](05.-shuo-ming-tu-lei-xing-jie-gou/05.-shuo-ming-tu-lei-xing-jie-gou.md)
+- [06. 商务视觉设计基础](06.-shang-wu-shi-jue-she-ji/06.-shang-wu-shi-jue-she-ji.md)
+- [07. 制作工具学习与应用](07.-zhi-tu-gong-ju/07.-zhi-tu-gong-ju.md)
+- [08. AI 辅助说明图制作](08.-AI-fu-zhu-zhi-zuo/08.-AI-fu-zhu-zhi-zuo.md)
+- [09. 实际制作流程与案例练习](09.-shi-zhan-an-li/09.-shi-zhan-an-li.md)
+- [10. 质量检查与交付标准](10.-zhi-liang-jian-cha-jiao-fu/10.-zhi-liang-jian-cha-jiao-fu.md)
 
-后续章节会随着课程编写逐步加入。
