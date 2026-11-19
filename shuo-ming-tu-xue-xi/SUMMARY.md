@@ -5,3 +5,5 @@
   * [01. 说明图制作基础知识](01.-ji-chu-zhi-shi/01.-shuo-ming-tu-ji-chu.md)
 * [学习导航｜日本客户的阅读习惯与思考方式](02.-ri-ben-ke-hu-yue-du-xi-guan/README.md)
   * [02. 日本客户的阅读习惯与思考方式](02.-ri-ben-ke-hu-yue-du-xi-guan/02.-ri-ben-ke-hu-yue-du-xi-guan.md)
+* [学习导航｜说明内容的整理与逻辑设计](03.-xin-xi-zheng-li-luo-ji-she-ji/README.md)
+  * [03. 说明内容的整理与逻辑设计](03.-xin-xi-zheng-li-luo-ji-she-ji/03.-xin-xi-zheng-li-yu-luo-ji-she-ji.md)
