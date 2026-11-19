@@ -17,3 +17,5 @@
   * [07. 制作工具学习与应用](07.-zhi-tu-gong-ju/07.-zhi-tu-gong-ju.md)
 * [学习导航｜AI 辅助说明图制作](08.-AI-fu-zhu-zhi-zuo/README.md)
   * [08. AI 辅助说明图制作](08.-AI-fu-zhu-zhi-zuo/08.-AI-fu-zhu-zhi-zuo.md)
+* [学习导航｜实际制作流程与案例练习](09.-shi-zhan-an-li/README.md)
+  * [09. 实际制作流程与案例练习](09.-shi-zhan-an-li/09.-shi-zhan-an-li.md)
