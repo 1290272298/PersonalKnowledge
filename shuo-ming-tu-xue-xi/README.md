@@ -107,6 +107,6 @@ description: 面向零基础学习者，系统学习如何制作日本客户容�
 请从第 01 章开始，按顺序学习：
 
 - [第 01 章：说明图制作基础知识](01.-ji-chu-zhi-shi/01.-shuo-ming-tu-ji-chu.md)
-- [第 01 章学习资料与练习入口](01.-ji-chu-zhi-shi/README.md)
+- [第 01 章学习导航](01.-ji-chu-zhi-shi/README.md)
 
 后续章节会随着课程编写逐步加入。
